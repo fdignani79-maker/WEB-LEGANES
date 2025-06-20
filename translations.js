@@ -34,9 +34,9 @@ const translations = {
         'program_1week_feature5': 'Kit de entrenamiento oficial del CD Leganés',
         'program_1week_feature6': 'Sesión de análisis de video',
         'program_1week_feature7': 'Tour turístico guiado por Madrid',
-        'program_1week_feature8': 'Seguro médico completo incluido',
         'program_apply_btn': 'Solicitar Ahora',
         'program_note': '* Aéreo no incluido',
+        'program_medical_note': '* Cobertura médica a cargo del jugador',
         
         // Programa 15 días
         'program_15days_duration': '15 Días',
@@ -52,7 +52,6 @@ const translations = {
         'program_15days_feature9': 'Paquete completo de kit de entrenamiento del CD Leganés',
         'program_15days_feature10': 'Informe de ojeadores y ruta de desarrollo',
         'program_15days_feature11': 'Tour turístico guiado por Madrid',
-        'program_15days_feature12': 'Seguro médico completo incluido',
         
         // Programa 1 mes
         'program_1month_duration': '1 Mes',
@@ -65,12 +64,11 @@ const translations = {
         'program_1month_feature6': 'Plan personalizado de nutrición y recuperación',
         'program_1month_feature7': 'Sesiones de coaching',
         'program_1month_feature8': 'Partidos competitivos con equipos de la academia',
-        'program_1month_feature9': 'Asistencia de ojeadores en los partidos de entrenamiento',
-        'program_1month_feature10': 'Informe profesional de ojeadores',
-        'program_1month_feature11': 'Posible recomendación a clubes/academias',
-        'program_1month_feature12': 'Kit completo de entrenamiento y partido del CD Leganés',
-        'program_1month_feature13': 'Tour turístico guiado por Madrid, Segovia y Toledo',
-        'program_1month_feature14': 'Seguro médico completo incluido',
+        'program_1month_feature9': 'Scout attendance at training matches',
+        'program_1month_feature10': 'Professional scout report',
+        'program_1month_feature11': 'Potential recommendation to clubs/academies',
+        'program_1month_feature12': 'Complete CD Leganés training and match kit',
+        'program_1month_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
         
         // Programa 2 meses
         'program_2months_duration': '2 Meses',
@@ -84,11 +82,10 @@ const translations = {
         'program_2months_feature7': 'Sesiones de coaching',
         'program_2months_feature8': 'Partidos competitivos con equipos de la academia',
         'program_2months_feature9': 'Asistencia de ojeadores en los partidos de entrenamiento',
-        'program_2months_feature10': 'Informe profesional de ojeadores',
-        'program_2months_feature11': 'Posible recomendación a clubes/academias',
-        'program_2months_feature12': 'Kit completo de entrenamiento y partido del CD Leganés',
-        'program_2months_feature13': 'Tour turístico guiado por Madrid, Segovia y Toledo',
-        'program_2months_feature14': 'Seguro médico completo incluido',
+        'program_2months_feature10': 'Professional scout report',
+        'program_2months_feature11': 'Potential recommendation to clubs/academies',
+        'program_2months_feature12': 'Complete CD Leganés training and match kit',
+        'program_2months_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
         
         // Programa 3 meses
         'program_3months_duration': '3 Meses',
@@ -106,7 +103,6 @@ const translations = {
         'program_3months_feature11': 'Posible recomendación a clubes/academias',
         'program_3months_feature12': 'Kit completo de entrenamiento y partido del CD Leganés',
         'program_3months_feature13': 'Tour turístico guiado por Madrid, Segovia y Toledo',
-        'program_3months_feature14': 'Seguro médico completo incluido',
         
         // Programa 1 año
         'program_premium_tag': '🇪🇸 Fichaje Oficial',
@@ -119,13 +115,12 @@ const translations = {
         'program_1year_documentation_title': 'Requisitos de Documentación',
         'program_1year_requirements_passport': 'Requisito indispensable: Pasaporte o ciudadanía europea vigente',
         'program_1year_feature0': 'Incorporación oficial a la estructura del CD Leganés',
-        'program_1year_feature1': 'Alojamiento y pensión completa durante todo el año',
+        'program_1year_feature1': 'Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda',
         'program_1year_feature2': 'Entrenamientos diarios con el club bajo metodología profesional',
         'program_1year_feature3': 'Participación en competencias oficiales con el equipo',
         'program_1year_feature4': 'Seguimiento técnico-táctico personalizado',
         'program_1year_feature5': 'Evaluaciones físicas periódicas y planificación individual',
         'program_1year_feature6': 'Plan nutricional y de recuperación adaptado a cada etapa',
-        'program_1year_feature7': 'Asistencia médica completa y fisioterapia',
         'program_1year_feature8': 'Sesiones de coaching y preparación mental',
         'program_1year_feature9': 'Kit completo de entrenamiento y competición del CD Leganés',
         'program_1year_feature10': 'Acceso a gimnasio, instalaciones y cuerpo técnico del club',
@@ -283,7 +278,7 @@ const translations = {
         // 1 Week Program
         'program_1week_duration': '1 Week',
         'program_1week_title': 'Master Program (1 Week)',
-        'program_1week_feature0': 'Accommodation and meals included',
+        'program_1week_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
         'program_1week_feature1': '5 days of elite training sessions',
         'program_1week_feature2': 'Professional training with CD Leganés staff',
         'program_1week_feature3': 'Tactical and technical evaluation',
@@ -291,14 +286,14 @@ const translations = {
         'program_1week_feature5': 'Official CD Leganés training kit',
         'program_1week_feature6': 'Video analysis session',
         'program_1week_feature7': 'Guided tourist tour of Madrid',
-        'program_1week_feature8': 'Comprehensive medical insurance included',
         'program_apply_btn': 'Apply Now',
         'program_note': '* Airfare not included',
+        'program_medical_note': '* Medical coverage at player\'s expense',
         
         // 15 Days Program
         'program_15days_duration': '15 Days',
         'program_15days_title': 'Pro Program (15 Days)',
-        'program_15days_feature0': 'Accommodation and meals included',
+        'program_15days_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
         'program_15days_feature1': '10 days of intensive training sessions',
         'program_15days_feature3': 'Comprehensive skills assessment',
         'program_15days_feature4': 'Personalized development plan',
@@ -309,12 +304,11 @@ const translations = {
         'program_15days_feature9': 'Complete CD Leganés training kit package',
         'program_15days_feature10': 'Scout report and development pathway',
         'program_15days_feature11': 'Guided tourist tour of Madrid',
-        'program_15days_feature12': 'Comprehensive medical insurance included',
         
         // 1 Month Program
         'program_1month_duration': '1 Month',
         'program_1month_title': 'Elite Program (1 Month)',
-        'program_1month_feature0': 'Accommodation and meals included',
+        'program_1month_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
         'program_1month_feature1': '20 days of professional-level training',
         'program_1month_feature2': 'Integration with CD Leganés training structure',
         'program_1month_feature4': 'Comprehensive technical and tactical development',
@@ -327,12 +321,11 @@ const translations = {
         'program_1month_feature11': 'Potential recommendation to clubs/academies',
         'program_1month_feature12': 'Complete CD Leganés training and match kit',
         'program_1month_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
-        'program_1month_feature14': 'Comprehensive medical insurance included',
         
         // 2 Months Program
         'program_2months_duration': '2 Months',
         'program_2months_title': 'Advanced Program (2 Months)',
-        'program_2months_feature0': 'Accommodation and meals included',
+        'program_2months_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
         'program_2months_feature1': '40 days of professional-level training',
         'program_2months_feature2': 'Integration with CD Leganés training structure',
         'program_2months_feature4': 'Comprehensive technical and tactical development',
@@ -340,17 +333,16 @@ const translations = {
         'program_2months_feature6': 'Personalized nutrition and recovery plan',
         'program_2months_feature7': 'Coaching sessions',
         'program_2months_feature8': 'Competitive matches with academy teams',
-        'program_2months_feature9': 'Scout attendance at training matches',
+        'program_2months_feature9': 'Asistencia de ojeadores en los partidos de entrenamiento',
         'program_2months_feature10': 'Professional scout report',
         'program_2months_feature11': 'Potential recommendation to clubs/academies',
         'program_2months_feature12': 'Complete CD Leganés training and match kit',
         'program_2months_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
-        'program_2months_feature14': 'Comprehensive medical insurance included',
         
         // 3 Months Program
         'program_3months_duration': '3 Months',
         'program_3months_title': 'Superior Program (3 Months)',
-        'program_3months_feature0': 'Accommodation and meals included',
+        'program_3months_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
         'program_3months_feature1': '60 days of professional-level training',
         'program_3months_feature2': 'Integration with CD Leganés training structure',
         'program_3months_feature4': 'Comprehensive technical and tactical development',
@@ -363,7 +355,6 @@ const translations = {
         'program_3months_feature11': 'Potential recommendation to clubs/academies',
         'program_3months_feature12': 'Complete CD Leganés training and match kit',
         'program_3months_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
-        'program_3months_feature14': 'Comprehensive medical insurance included',
         
         // 1 Year Program
         'program_premium_tag': '🇪🇸 Official Signing',
@@ -376,13 +367,12 @@ const translations = {
         'program_1year_documentation_title': 'Documentation Requirements',
         'program_1year_requirements_passport': 'Essential requirement: Valid passport or European citizenship',
         'program_1year_feature0': 'Official incorporation into CD Leganés structure',
-        'program_1year_feature1': 'Accommodation and full board throughout the year',
+        'program_1year_feature1': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
         'program_1year_feature2': 'Daily training with the club under professional methodology',
         'program_1year_feature3': 'Participation in official competitions with the team',
         'program_1year_feature4': 'Personalized technical-tactical monitoring',
         'program_1year_feature5': 'Periodic physical evaluations and individual planning',
         'program_1year_feature6': 'Nutritional and recovery plan adapted to each stage',
-        'program_1year_feature7': 'Complete medical assistance and physiotherapy',
         'program_1year_feature8': 'Coaching and mental preparation sessions',
         'program_1year_feature9': 'Complete CD Leganés training and competition kit',
         'program_1year_feature10': 'Access to gym, facilities and club technical staff',

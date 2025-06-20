@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
                     age--;
                 }
-                return age >= 7 && age <= 40;
+                return age >= 14 && age <= 23;
             },
-            message: 'La edad debe estar entre 7 y 40 años'
+            message: 'La edad debe estar entre 14 y 23 años'
         },
         email: {
             validate: value => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value),
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (currentLang === 'en') {
             validationRules.name.message = 'Please enter a valid name (minimum 3 characters, no numbers or special characters)';
-            validationRules.dob.message = 'Age must be between 7 and 40 years';
+            validationRules.dob.message = 'Age must be between 14 and 23 years';
             validationRules.email.message = 'Please enter a valid email address';
             validationRules.phone.message = 'Please enter a valid phone number (minimum 7 digits)';
             validationRules.nationality.message = 'Please enter your nationality';
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
             validationRules.video.message = 'Please enter a valid YouTube or Vimeo URL';
         } else {
             validationRules.name.message = 'Por favor, introduce un nombre válido (mínimo 3 caracteres, sin números ni caracteres especiales)';
-            validationRules.dob.message = 'La edad debe estar entre 7 y 40 años';
+            validationRules.dob.message = 'La edad debe estar entre 14 y 23 años';
             validationRules.email.message = 'Por favor, introduce una dirección de email válida';
             validationRules.phone.message = 'Por favor, introduce un número de teléfono válido (mínimo 7 dígitos)';
             validationRules.nationality.message = 'Por favor, introduce tu nacionalidad';
