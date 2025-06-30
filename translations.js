@@ -64,11 +64,11 @@ const translations = {
         'program_1month_feature6': 'Plan personalizado de nutrición y recuperación',
         'program_1month_feature7': 'Sesiones de coaching',
         'program_1month_feature8': 'Partidos competitivos con equipos de la academia',
-        'program_1month_feature9': 'Scout attendance at training matches',
-        'program_1month_feature10': 'Professional scout report',
-        'program_1month_feature11': 'Potential recommendation to clubs/academies',
-        'program_1month_feature12': 'Complete CD Leganés training and match kit',
-        'program_1month_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
+        'program_1month_feature9': 'Asistencia de ojeadores en los partidos de entrenamiento',
+        'program_1month_feature10': 'Informe profesional de ojeadores',
+        'program_1month_feature11': 'Posible recomendación a clubes/academias',
+        'program_1month_feature12': 'Kit completo de entrenamiento y partido del CD Leganés',
+        'program_1month_feature13': 'Tour turístico guiado por Madrid',
         
         // Programa 2 meses
         'program_2months_duration': '2 Meses',
@@ -81,11 +81,11 @@ const translations = {
         'program_2months_feature6': 'Plan personalizado de nutrición y recuperación',
         'program_2months_feature7': 'Sesiones de coaching',
         'program_2months_feature8': 'Partidos competitivos con equipos de la academia',
-        'program_2months_feature9': 'Asistencia de ojeadores en los partidos de entrenamiento',
+        'program_2months_feature9': 'Scout attendance at training matches',
         'program_2months_feature10': 'Professional scout report',
-        'program_2months_feature11': 'Potential recommendation to clubs/academies',
-        'program_2months_feature12': 'Complete CD Leganés training and match kit',
-        'program_2months_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
+        'program_2months_feature11': 'Posible recomendación a clubes/academias',
+        'program_2months_feature12': 'Kit completo de entrenamiento y partido del CD Leganés',
+        'program_2months_feature13': 'Tour turístico guiado por Madrid',
         
         // Programa 3 meses
         'program_3months_duration': '3 Meses',
@@ -102,7 +102,7 @@ const translations = {
         'program_3months_feature10': 'Informe profesional de ojeadores',
         'program_3months_feature11': 'Posible recomendación a clubes/academias',
         'program_3months_feature12': 'Kit completo de entrenamiento y partido del CD Leganés',
-        'program_3months_feature13': 'Tour turístico guiado por Madrid, Segovia y Toledo',
+        'program_3months_feature13': 'Tour turístico guiado por Madrid',
         
         // Programa 1 año
         'program_premium_tag': '🇪🇸 Fichaje Oficial',
@@ -127,7 +127,7 @@ const translations = {
         'program_1year_feature11': 'Informe profesional trimestral de evolución',
         'program_1year_feature12': 'Oportunidad real de proyección internacional',
         'program_1year_feature13': 'Contacto directo con clubes europeos',
-        'program_1year_feature14': 'Actividades culturales y tours por Madrid y alrededores',
+        'program_1year_feature14': 'Actividades culturales y tours por Madrid, Segovia y Toledo',
         'program_1year_note': '* La gestión del visado no está incluida en el precio',
         'program_1year_note_airfare': '* Aéreo no incluido',
         
@@ -320,7 +320,7 @@ const translations = {
         'program_1month_feature10': 'Professional scout report',
         'program_1month_feature11': 'Potential recommendation to clubs/academies',
         'program_1month_feature12': 'Complete CD Leganés training and match kit',
-        'program_1month_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
+        'program_1month_feature13': 'Guided tourist tour of Madrid',
         
         // 2 Months Program
         'program_2months_duration': '2 Months',
@@ -333,11 +333,11 @@ const translations = {
         'program_2months_feature6': 'Personalized nutrition and recovery plan',
         'program_2months_feature7': 'Coaching sessions',
         'program_2months_feature8': 'Competitive matches with academy teams',
-        'program_2months_feature9': 'Asistencia de ojeadores en los partidos de entrenamiento',
+        'program_2months_feature9': 'Scout attendance at training matches',
         'program_2months_feature10': 'Professional scout report',
         'program_2months_feature11': 'Potential recommendation to clubs/academies',
         'program_2months_feature12': 'Complete CD Leganés training and match kit',
-        'program_2months_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
+        'program_2months_feature13': 'Guided tourist tour of Madrid',
         
         // 3 Months Program
         'program_3months_duration': '3 Months',
@@ -354,7 +354,7 @@ const translations = {
         'program_3months_feature10': 'Professional scout report',
         'program_3months_feature11': 'Potential recommendation to clubs/academies',
         'program_3months_feature12': 'Complete CD Leganés training and match kit',
-        'program_3months_feature13': 'Guided tourist tour of Madrid, Segovia and Toledo',
+        'program_3months_feature13': 'Guided tourist tour of Madrid',
         
         // 1 Year Program
         'program_premium_tag': '🇪🇸 Official Signing',
@@ -379,7 +379,7 @@ const translations = {
         'program_1year_feature11': 'Quarterly professional development report',
         'program_1year_feature12': 'Real opportunity for international projection',
         'program_1year_feature13': 'Direct contact with European clubs',
-        'program_1year_feature14': 'Cultural activities and tours around Madrid and surroundings',
+        'program_1year_feature14': 'Cultural activities and tours around Madrid, Segovia and Toledo',
         'program_1year_note': '* Visa processing is not included in the price',
         'program_1year_note_airfare': '* Airfare not included',
         
