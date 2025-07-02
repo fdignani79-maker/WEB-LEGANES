@@ -238,10 +238,10 @@ const translations = {
         
         // Opciones de programa
         'program_select': 'Elegir un programa',
-        'program_select_1week': '1 Semana - Programa Master (€3.500)',
-        'program_select_15days': '15 Días - Programa Pro (€5.400)',
-        'program_select_1month': '1 Mes - Programa Élite (€7.900)',
-        'program_select_2months': '2 Meses - Programa Avanzado (€10.200)',
+        'program_select_1week': '1 Semana - Programa Master (€2.500)',
+        'program_select_15days': '15 Días - Programa Pro (€4.400)',
+        'program_select_1month': '1 Mes - Programa Élite (€6.400)',
+        'program_select_2months': '2 Meses - Programa Avanzado (€8.700)',
         'program_select_3months': '3 Meses - Programa Superior (€12.500)',
         'program_select_1year': '1 Año - Programa Premium (€25.500)',
         
@@ -490,10 +490,10 @@ const translations = {
         
         // Program options
         'program_select': 'Choose a program',
-        'program_select_1week': '1 Week - Master Program (€3,500)',
-        'program_select_15days': '15 Days - Pro Program (€5,400)',
-        'program_select_1month': '1 Month - Elite Program (€7,900)',
-        'program_select_2months': '2 Months - Advanced Program (€10,200)',
+        'program_select_1week': '1 Week - Master Program (€2,500)',
+        'program_select_15days': '15 Days - Pro Program (€4,400)',
+        'program_select_1month': '1 Month - Elite Program (€6,400)',
+        'program_select_2months': '2 Months - Advanced Program (€8,700)',
         'program_select_3months': '3 Months - Superior Program (€12,500)',
         'program_select_1year': '1 Year - Premium Program (€25.500)',
         
