@@ -242,7 +242,7 @@ const translations = {
         'program_select_15days': '15 Días - Programa Pro (€4.400)',
         'program_select_1month': '1 Mes - Programa Élite (€6.400)',
         'program_select_2months': '2 Meses - Programa Avanzado (€8.700)',
-        'program_select_3months': '3 Meses - Programa Superior (€12.500)',
+        'program_select_3months': '3 Meses - Programa Superior (€11.300)',
         'program_select_1year': '1 Año - Programa Premium (€25.500)',
         
         // Página de agradecimiento
