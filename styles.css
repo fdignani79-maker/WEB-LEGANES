@@ -782,8 +782,19 @@ nav ul li a.cta-button:after {
     padding: 100px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/foto-facha-caminando.JPG') no-repeat center center/cover;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .why-us {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .why-us .section-header h2 {
@@ -945,8 +956,19 @@ nav ul li a.cta-button:after {
     padding: 100px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('images/exito-casos.jpg') no-repeat center center/cover;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .testimonials {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .testimonials .section-header h2 {
@@ -1245,10 +1267,21 @@ nav ul li a.cta-button:after {
     padding: 100px 0;
     background: linear-gradient(135deg, rgba(26, 58, 126, 0.95), rgba(34, 40, 49, 0.95)), url('images/stadium-background-new.jpg') no-repeat center center/cover;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     color: white;
     position: relative;
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .cta {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .cta::before {
@@ -1551,6 +1584,7 @@ footer ul li a:hover {
         padding-bottom: 80px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 30px;
         width: 100%;
     }
     
@@ -1558,6 +1592,7 @@ footer ul li a:hover {
         font-size: 2rem !important;
         padding: 0;
         width: 100%;
+        margin-top: 15px;
     }
     
     .hero-content p {
@@ -1725,20 +1760,23 @@ footer ul li a:hover {
     
     .hero {
         min-height: 500px;
-        padding-top: 80px;
+        padding-top: 120px;
+        margin-top: -80px;
     }
     
     .hero-content {
         padding-bottom: 100px;
         padding-left: 15px;
         padding-right: 15px;
+        padding-top: 40px;
         width: 100%;
     }
     
     .hero-content h2 {
         font-size: 1.8rem !important;
         line-height: 1.2;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+        margin-top: 20px;
         padding: 0;
         width: 100%;
     }
