@@ -17,6 +17,7 @@ const translations = {
         'hero_subtitle': 'Programas de entrenamiento de élite en CD Leganés en Madrid, España',
         'hero_btn_explore': 'Explorar Programas',
         'hero_btn_apply': 'Solicitar Ahora',
+        'hero_scroll_indicator': 'Desliza',
         
         // Programas
         'programs_title': 'Programas de Entrenamiento',
@@ -216,10 +217,12 @@ const translations = {
         'footer_program_1week': 'Programa de 1 Semana',
         'footer_program_15days': 'Programa de 15 Días',
         'footer_program_1month': 'Programa de 1 Mes',
+        'footer_program_2months': 'Programa de 2 Meses',
+        'footer_program_3months': 'Programa de 3 Meses',
         'footer_program_1year': 'Programa Premium',
         'footer_contact_title': 'Contáctanos',
         'footer_address': 'Estadio Municipal de Butarque, Leganés, Madrid, España',
-        'footer_copyright': '© 2025 Elite Futbol. Todos los derechos reservados.',
+        'footer_copyright': '© 2025 Elite Futbol Scouting. Todos los derechos reservados.',
         'footer_privacy': 'Política de Privacidad',
         'footer_terms': 'Términos y Condiciones',
         
@@ -232,9 +235,9 @@ const translations = {
         
         // Opciones de programa
         'program_select': 'Elegir un programa',
-        'program_select_1week': '1 Semana - Programa Master (€2.500)',
-        'program_select_15days': '15 Días - Programa Pro (€4.400)',
-        'program_select_1month': '1 Mes - Programa Élite (€6.400)',
+        'program_select_1week': '1 Semana - Programa Master (€2.200)',
+        'program_select_15days': '15 Días - Programa Pro (€3.400)',
+        'program_select_1month': '1 Mes - Programa Élite (€5.300)',
         'program_select_2months': '2 Meses - Programa Avanzado (€8.700)',
         'program_select_3months': '3 Meses - Programa Superior (€11.300)',
         'program_select_1year': '1 Año - Programa Premium (€25.500)',
@@ -263,6 +266,7 @@ const translations = {
         'hero_subtitle': 'Elite training programs at CD Leganés in Madrid, Spain',
         'hero_btn_explore': 'Explore Programs',
         'hero_btn_apply': 'Apply Now',
+        'hero_scroll_indicator': 'Scroll Down',
         
         // Programs
         'programs_title': 'Training Programs',
@@ -462,10 +466,12 @@ const translations = {
         'footer_program_1week': '1 Week Program',
         'footer_program_15days': '15 Days Program',
         'footer_program_1month': '1 Month Program',
-        'footer_program_1year': 'Programa Premium',
+        'footer_program_2months': '2 Months Program',
+        'footer_program_3months': '3 Months Program',
+        'footer_program_1year': 'Premium Program',
         'footer_contact_title': 'Contact Us',
         'footer_address': 'Estadio Municipal de Butarque, Leganés, Madrid, Spain',
-        'footer_copyright': '© 2025 Elite Soccer. All rights reserved.',
+        'footer_copyright': '© 2025 Elite Soccer Scouting. All rights reserved.',
         'footer_privacy': 'Privacy Policy',
         'footer_terms': 'Terms and Conditions',
         
@@ -478,9 +484,9 @@ const translations = {
         
         // Program options
         'program_select': 'Choose a program',
-        'program_select_1week': '1 Week - Master Program (€2,500)',
-        'program_select_15days': '15 Days - Pro Program (€4,400)',
-        'program_select_1month': '1 Month - Elite Program (€6,400)',
+        'program_select_1week': '1 Week - Master Program (€2,200)',
+        'program_select_15days': '15 Days - Pro Program (€3,400)',
+        'program_select_1month': '1 Month - Elite Program (€5,300)',
         'program_select_2months': '2 Months - Advanced Program (€8,700)',
         'program_select_3months': '3 Months - Superior Program (€12,500)',
         'program_select_1year': '1 Year - Premium Program (€25.500)',
