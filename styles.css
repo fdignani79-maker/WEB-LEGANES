@@ -214,6 +214,10 @@ header .container {
     align-items: center;
 }
 
+header .logo-language-wrapper {
+    flex-shrink: 0;
+}
+
 .logo {
     flex: 0 0 auto;
 }
@@ -222,6 +226,7 @@ header .container {
     font-size: 2rem;
     margin: 0;
     color: var(--primary-color);
+    white-space: nowrap;
 }
 
 .logo h1 span {
@@ -554,6 +559,383 @@ nav ul li a.cta-button:after {
     justify-content: center;
     gap: 20px;
     animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+/* Tryout International Camp - Sección temporal */
+.tryout-camp {
+    position: relative;
+    padding: 80px 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0d1f4a 0%, #1a3a7e 35%, #243d6a 70%, #1a3a7e 100%);
+    color: white;
+}
+
+.tryout-camp-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('images/stadium-background-new.jpg') no-repeat center center/cover;
+    opacity: 0.15;
+    z-index: 0;
+}
+
+.tryout-camp-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.tryout-top-crest {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tryout-top-crest img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+}
+
+.tryout-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+    line-height: 1.2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tryout-location {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 4px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.tryout-date {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 12px;
+}
+
+.tryout-tagline {
+    font-size: 1.15rem;
+    opacity: 0.95;
+    margin-bottom: 20px;
+}
+
+.tryout-meta {
+    margin-bottom: 28px;
+}
+
+.tryout-duration {
+    font-size: 1rem;
+    opacity: 0.95;
+    margin-bottom: 12px;
+}
+
+.tryout-price {
+    font-size: 1.25rem;
+    margin: 0;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(228, 181, 40, 0.4);
+}
+
+.tryout-price .tryout-price-amount {
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+}
+
+.tryout-deposit {
+    font-size: 0.95rem;
+    opacity: 0.95;
+    margin: 12px 0 0 0;
+}
+
+.tryout-highlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 2px solid rgba(228, 181, 40, 0.6);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 28px;
+    backdrop-filter: blur(8px);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tryout-highlight-icon {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, var(--secondary-color), #f5c842);
+    color: var(--dark-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.tryout-highlight-text-wrap {
+    text-align: left;
+}
+
+.tryout-highlight-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    line-height: 1.3;
+    color: var(--secondary-color);
+}
+
+.tryout-highlight-desc {
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.5;
+    opacity: 0.95;
+}
+
+.tryout-benefits {
+    margin: 0 0 32px 0;
+    padding: 0;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 24px 28px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tryout-benefits li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 8px 0;
+    font-size: 1rem;
+    max-width: 100%;
+}
+
+.tryout-benefits li i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.tryout-age {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    margin: -8px 0 32px 0;
+}
+
+.tryout-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+    text-align: left;
+    align-items: stretch;
+    width: 100%;
+}
+
+.tryout-block {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 24px 28px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-sizing: border-box;
+    min-height: 0;
+}
+
+.tryout-block-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: var(--secondary-color);
+}
+
+.tryout-block p {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin-bottom: 12px;
+    opacity: 0.95;
+}
+
+.tryout-block p:last-child {
+    margin-bottom: 0;
+}
+
+.tryout-about-punch {
+    font-weight: 700;
+    color: white !important;
+    margin-top: 14px !important;
+}
+
+.tryout-spain-intro {
+    margin-bottom: 14px !important;
+}
+
+.tryout-spain-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 14px 0;
+}
+
+.tryout-spain-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    font-size: 0.9rem;
+}
+
+.tryout-spain-list li i {
+    color: var(--secondary-color);
+    width: 20px;
+    text-align: center;
+}
+
+.tryout-merit {
+    font-size: 0.9rem !important;
+    font-weight: 600;
+    font-style: italic;
+    opacity: 0.95 !important;
+}
+
+.tryout-who {
+    text-align: left;
+    margin-bottom: 24px;
+    padding: 24px 28px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tryout-who-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+}
+
+.tryout-who-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+    font-size: 0.95rem;
+}
+
+.tryout-who-list li i {
+    color: var(--secondary-color);
+    flex-shrink: 0;
+}
+
+.tryout-who-note {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin: 0 !important;
+}
+
+.tryout-urgency {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 28px;
+    opacity: 0.95;
+}
+
+.tryout-cta {
+    background: linear-gradient(135deg, var(--secondary-color), #f5c842);
+    border: 2px solid var(--secondary-color);
+    color: var(--dark-color);
+    font-weight: 700;
+    padding: 16px 40px;
+    font-size: 1rem;
+}
+
+.tryout-cta:hover {
+    background: white;
+    border-color: white;
+    color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.25);
+}
+
+.tryout-cta i {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .tryout-camp {
+        padding: 60px 20px;
+    }
+    .tryout-title {
+        font-size: 1.75rem;
+    }
+    .tryout-location {
+        font-size: 1rem;
+    }
+    .tryout-tagline {
+        font-size: 1rem;
+    }
+    .tryout-highlight {
+        flex-direction: column;
+        padding: 20px 16px;
+        text-align: center;
+    }
+    .tryout-highlight-text-wrap {
+        text-align: center;
+    }
+    .tryout-highlight-title {
+        font-size: 1.05rem;
+    }
+    .tryout-highlight-desc {
+        font-size: 0.9rem;
+    }
+    .tryout-benefits li {
+        justify-content: flex-start;
+    }
+    .tryout-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .tryout-block {
+        padding: 20px;
+    }
+    .tryout-urgency {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .tryout-top-crest img {
+        width: 64px;
+        height: 64px;
+    }
+    .tryout-title {
+        font-size: 1.5rem;
+    }
+    .tryout-block-title {
+        font-size: 1.1rem;
+    }
 }
 
 /* Program Cards */
