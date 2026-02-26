@@ -637,6 +637,9 @@ nav ul li a.cta-button:after {
 
 .tryout-meta {
     margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tryout-duration {
@@ -648,13 +651,26 @@ nav ul li a.cta-button:after {
 .tryout-price {
     font-size: 1.25rem;
     margin: 0;
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: 6px 14px;
     background: rgba(255, 255, 255, 0.12);
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 8px;
     border: 1px solid rgba(228, 181, 40, 0.4);
+    width: fit-content;
 }
-
+.tryout-price-original {
+    text-decoration: line-through;
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+.tryout-price-early {
+    font-size: 0.95rem;
+    opacity: 0.95;
+}
 .tryout-price .tryout-price-amount {
     color: var(--secondary-color);
     font-size: 1.6rem;
@@ -2592,4 +2608,136 @@ header .container {
     .programs .program-cards .program-card:nth-child(3) .btn {
         margin-top: 10px !important;
     }
+}
+
+/* ========== Camp Registration Modal ========== */
+.camp-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.camp-modal.camp-modal-open {
+    opacity: 1;
+    visibility: visible;
+}
+.camp-modal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+.camp-modal-box {
+    position: relative;
+    background: #fff;
+    border-radius: 12px;
+    max-width: 720px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+.camp-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #f0f0f0;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    color: #333;
+    z-index: 1;
+    transition: background 0.2s, color 0.2s;
+}
+.camp-modal-close:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+.camp-form-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin: 0 0 24px 0;
+    padding: 24px 24px 0;
+    padding-right: 56px;
+}
+.camp-form {
+    padding: 0 24px 24px;
+}
+.camp-form-section {
+    border: none;
+    margin: 0 0 24px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #eee;
+}
+.camp-form-section:last-of-type { border-bottom: none; }
+.camp-form-section legend {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin-bottom: 14px;
+    padding: 0;
+}
+.camp-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 20px;
+}
+.camp-form-group { margin-bottom: 0; }
+.camp-form-group.full { grid-column: 1 / -1; }
+.camp-form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #333;
+}
+.camp-form-group label small { font-weight: 400; color: #666; }
+.camp-form-group input,
+.camp-form-group select,
+.camp-form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+.camp-form-group input:focus,
+.camp-form-group select:focus,
+.camp-form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+.camp-form-checkboxes { display: flex; flex-direction: column; gap: 12px; }
+.camp-checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #444;
+}
+.camp-checkbox-label input { margin-top: 4px; flex-shrink: 0; }
+.camp-form-submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    font-size: 1rem;
+}
+.camp-register-nav { font-weight: 600; }
+
+@media (max-width: 640px) {
+    .camp-form-grid { grid-template-columns: 1fr; }
+    .camp-modal-box { max-height: 95vh; }
 }

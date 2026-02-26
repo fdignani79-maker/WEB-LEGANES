@@ -34,7 +34,7 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="#home" class="active" data-i18n="nav_home">Inicio</a></li>
-                    <!-- <li><a href="#tryout-camp" data-i18n="nav_camp">Camp</a></li> -->
+                    <li><a href="#tryout-camp" data-i18n="nav_camp">Camp</a></li>
                     <li><a href="#programs" data-i18n="nav_programs">Programas</a></li>
                     <li><a href="#about" data-i18n="nav_about">Nosotros</a></li>
                     <li><a href="#testimonials" data-i18n="nav_testimonials">Testimonios</a></li>
@@ -63,7 +63,7 @@
         </div>
     </section>
 
-    <!-- CD Leganés Tryout International Camp - Sección temporal (oculta, descomentar para reactivar)
+    <!-- CD Leganés Tryout International Camp -->
     <section id="tryout-camp" class="tryout-camp">
         <div class="tryout-camp-bg"></div>
         <div class="container tryout-camp-inner">
@@ -120,19 +120,23 @@
             </div>
 
             <div class="tryout-meta">
-                <p class="tryout-price"><span data-i18n="tryout_price_label">Registration:</span> <strong class="tryout-price-amount">$900</strong></p>
-                <p class="tryout-deposit" data-i18n="tryout_deposit">Secure your spot with a $200 non-refundable deposit.</p>
+                <p class="tryout-price">
+                    <span data-i18n="tryout_price_label">Registration:</span>
+                    <span class="tryout-price-original">$900</span>
+                    <span class="tryout-price-early" data-i18n="tryout_early_label">Early registration:</span>
+                    <strong class="tryout-price-amount">$700</strong>
+                </p>
+                <p class="tryout-deposit" data-i18n="tryout_deposit">Secure your spot with a $150 non-refundable deposit.</p>
             </div>
 
             <p class="tryout-urgency" data-i18n="tryout_urgency">Limited spots available. Registration will close once capacity is reached.</p>
 
-            <a href="https://wa.me/15618297422?text=Hola%21%20Quiero%20registrarme%20en%20el%20camp." class="btn tryout-cta" data-i18n="tryout_cta" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-whatsapp"></i>
+            <a href="#" id="open-camp-register" class="btn tryout-cta" data-i18n="tryout_cta">
+                <i class="fas fa-paper-plane"></i>
                 SECURE YOUR SPOT
             </a>
         </div>
     </section>
-    -->
 
     <section id="programs" class="programs">
         <div class="container">
@@ -676,6 +680,163 @@
         </div>
     </footer>
 
+    <!-- Camp Registration Modal -->
+    <div id="camp-modal" class="camp-modal" aria-hidden="true">
+        <div class="camp-modal-overlay" id="camp-modal-overlay"></div>
+        <div class="camp-modal-box">
+            <button type="button" class="camp-modal-close" id="camp-modal-close" aria-label="Cerrar">&times;</button>
+            <h2 class="camp-form-title">CD Leganés Official Tryout Camp – Miami 2026</h2>
+            <form id="camp-registration-form" action="https://formspree.io/f/xjgeyqbz" method="POST" class="camp-form">
+                <input type="hidden" name="_subject" value="Camp Registration – Miami 2026">
+                <input type="hidden" name="_next" value="camp-gracias.html">
+                <input type="text" name="_gotcha" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+
+                <fieldset class="camp-form-section">
+                    <legend>Section 1 — Player Information</legend>
+                    <div class="camp-form-grid">
+                        <div class="camp-form-group full">
+                            <label for="camp_player_name">Player Full Name *</label>
+                            <input type="text" id="camp_player_name" name="player_name" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_dob">Date of Birth *</label>
+                            <input type="date" id="camp_dob" name="dob" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_age">Age *</label>
+                            <input type="number" id="camp_age" name="age" min="8" max="20" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_nationality">Nationality *</label>
+                            <input type="text" id="camp_nationality" name="nationality" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_primary_position">Primary Position *</label>
+                            <select id="camp_primary_position" name="primary_position" required>
+                                <option value="">Select</option>
+                                <option value="GK">GK</option>
+                                <option value="CB">CB</option>
+                                <option value="LB">LB</option>
+                                <option value="RB">RB</option>
+                                <option value="CM">CM</option>
+                                <option value="CDM">CDM</option>
+                                <option value="CAM">CAM</option>
+                                <option value="LW">LW</option>
+                                <option value="RW">RW</option>
+                                <option value="ST">ST</option>
+                            </select>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_secondary_position">Secondary Position (optional)</label>
+                            <select id="camp_secondary_position" name="secondary_position">
+                                <option value="">Select</option>
+                                <option value="GK">GK</option>
+                                <option value="CB">CB</option>
+                                <option value="LB">LB</option>
+                                <option value="RB">RB</option>
+                                <option value="CM">CM</option>
+                                <option value="CDM">CDM</option>
+                                <option value="CAM">CAM</option>
+                                <option value="LW">LW</option>
+                                <option value="RW">RW</option>
+                                <option value="ST">ST</option>
+                            </select>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_current_club">Current Club *</label>
+                            <input type="text" id="camp_current_club" name="current_club" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_height">Height (optional)</label>
+                            <input type="text" id="camp_height" name="height" placeholder="e.g. 5'10&quot;">
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_foot">Preferred Foot *</label>
+                            <select id="camp_foot" name="preferred_foot" required>
+                                <option value="">Select</option>
+                                <option value="Right">Right</option>
+                                <option value="Left">Left</option>
+                                <option value="Both">Both</option>
+                            </select>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_jersey">Jersey Size *</label>
+                            <select id="camp_jersey" name="jersey_size" required>
+                                <option value="">Select</option>
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="camp-form-section">
+                    <legend>Section 2 — Parent / Legal Guardian Information</legend>
+                    <div class="camp-form-grid">
+                        <div class="camp-form-group full">
+                            <label for="camp_guardian_name">Parent / Guardian Full Name *</label>
+                            <input type="text" id="camp_guardian_name" name="guardian_name" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_guardian_email">Email Address *</label>
+                            <input type="email" id="camp_guardian_email" name="guardian_email" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_guardian_phone">Phone Number *</label>
+                            <input type="tel" id="camp_guardian_phone" name="guardian_phone" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_emergency_name">Emergency Contact Name *</label>
+                            <input type="text" id="camp_emergency_name" name="emergency_contact_name" required>
+                        </div>
+                        <div class="camp-form-group">
+                            <label for="camp_emergency_phone">Emergency Contact Phone *</label>
+                            <input type="tel" id="camp_emergency_phone" name="emergency_contact_phone" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="camp-form-section">
+                    <legend>Section 3 — Medical &amp; Notes</legend>
+                    <div class="camp-form-grid">
+                        <div class="camp-form-group full">
+                            <label for="camp_medical">Medical Conditions / Allergies * <small>(write &quot;None&quot; if none)</small></label>
+                            <input type="text" id="camp_medical" name="medical_conditions" required placeholder="None">
+                        </div>
+                        <div class="camp-form-group full">
+                            <label for="camp_notes">Additional Notes (optional)</label>
+                            <textarea id="camp_notes" name="additional_notes" rows="3"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="camp-form-section">
+                    <legend>Section 4 — Agreements</legend>
+                    <div class="camp-form-checkboxes">
+                        <label class="camp-checkbox-label">
+                            <input type="checkbox" name="agreement_risks" value="yes" required>
+                            <span>I understand that participation involves physical activity and assume responsibility for any risks involved.</span>
+                        </label>
+                        <label class="camp-checkbox-label">
+                            <input type="checkbox" name="agreement_media" value="yes" required>
+                            <span>I authorize Elite Futbol Scouting and CD Leganés to use photos and videos taken during the event for promotional purposes.</span>
+                        </label>
+                        <label class="camp-checkbox-label">
+                            <input type="checkbox" name="agreement_deposit" value="yes" required>
+                            <span>I understand that the $150 deposit is non-refundable unless the event is canceled by the organization.</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="btn camp-form-submit">Submit Registration</button>
+            </form>
+        </div>
+    </div>
+
     <!-- Scripts - Orden importante -->
     <script src="translations.js"></script>
     <script src="script.js"></script>
@@ -706,6 +867,36 @@
                 top: 0,
                 behavior: 'smooth'
             });
+        });
+
+        // Camp registration modal
+        const campModal = document.getElementById('camp-modal');
+        const openCampBtn = document.getElementById('open-camp-register');
+        const campModalOverlay = document.getElementById('camp-modal-overlay');
+        const campModalClose = document.getElementById('camp-modal-close');
+
+        function openCampModal(e) {
+            if (e) e.preventDefault();
+            document.querySelector('.main-nav')?.classList.remove('active');
+            if (campModal) {
+                campModal.classList.add('camp-modal-open');
+                campModal.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+        function closeCampModal() {
+            if (campModal) {
+                campModal.classList.remove('camp-modal-open');
+                campModal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+            }
+        }
+
+        if (openCampBtn) openCampBtn.addEventListener('click', openCampModal);
+        if (campModalOverlay) campModalOverlay.addEventListener('click', closeCampModal);
+        if (campModalClose) campModalClose.addEventListener('click', closeCampModal);
+        document.addEventListener('keydown', function(ev) {
+            if (ev.key === 'Escape' && campModal && campModal.classList.contains('camp-modal-open')) closeCampModal();
         });
     </script>
 </body>

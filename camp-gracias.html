@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Registering | CD Leganés Tryout Camp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .camp-thanks-section {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 20px 80px;
+            background: linear-gradient(135deg, rgba(26, 58, 126, 0.03), rgba(228, 181, 40, 0.05));
+        }
+        .camp-thanks-container { max-width: 600px; margin: 0 auto; }
+        .camp-thanks-icon { font-size: 64px; color: var(--secondary-color); margin-bottom: 20px; }
+        .camp-thanks-heading { font-size: 2rem; margin-bottom: 24px; color: var(--primary-color); }
+        .camp-thanks-message { font-size: 1.1rem; line-height: 1.7; margin-bottom: 16px; color: #555; }
+        .camp-thanks-cta { margin-top: 32px; }
+        .camp-thanks-cta .btn { font-size: 1.1rem; padding: 16px 32px; }
+        .camp-thanks-back { margin-top: 24px; }
+        .camp-thanks-back .btn {
+            background-color: transparent;
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+        }
+        .camp-thanks-back .btn:hover {
+            background-color: var(--primary-color);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-language-wrapper">
+                <div class="logo"><h1><span>Elite</span> Futbol <span>Scouting</span></h1></div>
+                <div class="language-selector">
+                    <a href="#" class="language-option active" data-lang="es"><img src="images/bandera-espana.webp" alt="ES" class="flag-icon"><span>ES</span></a>
+                    <a href="#" class="language-option" data-lang="en"><img src="images/bandera-usa.webp" alt="EN" class="flag-icon"><span>EN</span></a>
+                </div>
+                <div class="mobile-menu-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html#home">Inicio</a></li>
+                    <li><a href="index.html#programs">Programas</a></li>
+                    <li><a href="index.html#about">Nosotros</a></li>
+                    <li><a href="index.html#testimonials">Testimonios</a></li>
+                    <li><a href="index.html#facilities">Instalaciones</a></li>
+                    <li><a href="index.html#contact" class="cta-button">Solicitar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="camp-thanks-section">
+        <div class="camp-thanks-container">
+            <i class="fas fa-check-circle camp-thanks-icon"></i>
+            <h1 class="camp-thanks-heading">Thank you for registering.</h1>
+            <p class="camp-thanks-message">To secure your spot, please complete the $150 deposit payment.</p>
+            <p class="camp-thanks-message">Your registration is only confirmed once payment is completed.</p>
+            <div class="camp-thanks-cta">
+                <a href="https://buy.stripe.com/aFa3cubcO3Ji3aB9yG33W00" class="btn" target="_blank" rel="noopener noreferrer">
+                    Pay $150 Deposit
+                </a>
+            </div>
+            <div class="camp-thanks-back">
+                <a href="index.html" class="btn">Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elite Futbol Scouting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="language-selector.js"></script>
+</body>
+</html>
