@@ -17,6 +17,7 @@ const translations = {
         // Hero section
         'hero_title': 'Tu Camino al Fútbol Profesional Comienza Aquí',
         'hero_subtitle': 'Programas de entrenamiento de élite en CD Leganés en Madrid, España',
+        'hero_btn_miami_camp': 'Miami Camp 2026',
         'hero_btn_explore': 'Explorar Programas',
         'hero_btn_apply': 'Solicitar Ahora',
         'hero_scroll_indicator': 'Desliza',
@@ -145,14 +146,13 @@ const translations = {
         // Sobre nosotros
         'about_title': 'Quienes Somos',
         'about_subtitle': 'Creando experiencias deportivas únicas para jóvenes futbolistas',
-        'about_p1': 'Somos una empresa dedicada a crear experiencias deportivas únicas para jóvenes futbolistas de todo el mundo. Nuestro objetivo es formar, inspirar y proyectar a chicos y chicas apasionados por el fútbol, brindándoles oportunidades reales de crecimiento dentro y fuera del campo.',
-        'about_p2': 'Con sede en Madrid y una trayectoria marcada por la excelencia, contamos con años de experiencia trabajando con deportistas internacionales. Hemos recibido jóvenes de países como Estados Unidos, diferentes regiones de América del Sur y Oriente, promoviendo un entorno multicultural que enriquece tanto lo deportivo como lo humano.',
-        'about_p3': 'Nos mueve la pasión, la seriedad y el compromiso en cada uno de nuestros programas. Diseñamos experiencias integrales donde el entrenamiento de alto rendimiento se combina con la formación personal y la inmersión cultural. Nuestro enfoque va más allá del fútbol: buscamos descubrir y potenciar el talento, acompañando a cada joven en su camino hacia una carrera profesional o una vivencia inolvidable.',
-        'about_p4': 'Nuestro equipo está liderado por profesionales con una destacada trayectoria internacional:',
-        'about_p5_name': 'Fernando Dignani',
-        'about_p5_description': 'Director Deportivo, aporta su vasta experiencia en el desarrollo de futbolistas de élite y en la gestión de programas de formación.',
-        'about_p6': 'Germán Enrici, Director de Relaciones Internacionales, es el nexo entre los diferentes países y culturas que se unen en nuestros proyectos, asegurando una comunicación cercana y una experiencia global de calidad.',
-        'about_p7': 'Creemos en el poder del deporte para transformar vidas. Por eso, trabajamos con dedicación y profesionalismo, construyendo puentes entre talentos jóvenes y oportunidades reales.',
+        'about_p1': 'Somos una empresa con sede en Madrid dedicada a crear experiencias deportivas únicas para jóvenes futbolistas de todo el mundo. Nuestro objetivo es formar, inspirar y proyectar a chicos y chicas apasionados por el fútbol, brindándoles oportunidades de crecimiento dentro y fuera del campo.',
+        'about_p2': 'Con una trayectoria marcada por la excelencia, contamos con años de experiencia trabajando con deportistas internacionales. Hemos recibido jóvenes de Estados Unidos, América del Sur y Oriente, promoviendo un entorno multicultural que enriquece lo deportivo y lo humano.',
+        'about_p3': 'Diseñamos experiencias integrales donde el entrenamiento de alto rendimiento se combina con la formación personal y la inmersión cultural. Nuestro equipo está liderado por profesionales con destacada trayectoria internacional:',
+        'about_p4': 'Fernando Dignani',
+        'about_p4_desc': 'Director Deportivo, aporta su vasta experiencia en el desarrollo de futbolistas de élite y en la gestión de programas de formación.',
+        'about_p5': 'Germán Enrici, Director de Relaciones Internacionales, es el nexo entre los diferentes países y culturas que se unen en nuestros proyectos, asegurando una comunicación cercana y una experiencia global de calidad.',
+        'about_p6': 'Creemos en el poder del deporte para transformar vidas. Trabajamos con dedicación y profesionalismo, construyendo puentes entre talentos jóvenes y el mundo profesional.',
         'about_facilities_btn': 'Conoce Nuestras Instalaciones',
         
         // Testimonios
@@ -224,7 +224,7 @@ const translations = {
         'footer_program_1year': 'Programa Premium',
         'footer_contact_title': 'Contáctanos',
         'footer_address': 'Estadio Municipal de Butarque, Leganés, Madrid, España',
-        'footer_copyright': '© 2025 Elite Futbol Scouting. Todos los derechos reservados.',
+        'footer_copyright': '© 2026 Elite Futbol Scouting. Todos los derechos reservados.',
         'footer_privacy': 'Política de Privacidad',
         'footer_terms': 'Términos y Condiciones',
         
@@ -267,6 +267,7 @@ const translations = {
         'tryout_benefit2': 'Sesiones de entrenamiento de nivel profesional',
         'tryout_benefit3': 'Scouting internacional real en Miami, Florida',
         'tryout_benefit4': 'Selección por rendimiento con acceso directo a España',
+        'tryout_benefit_kit': 'Kit de entrenamiento del CD Leganés',
         'tryout_age': 'Para jugadores de 8 a 20 años.',
         'tryout_what_title': '¿Qué es el CD Leganés Tryout International Camp?',
         'tryout_what_p1': 'El camp se realizará en Miami, Florida: entrenamiento de alto nivel combinado con tryout oficial y proceso de selección. Serás evaluado por entrenadores oficiales del CD Leganés que viajan exclusivamente para el camp. Los jugadores entrenan, compiten y son evaluados bajo estándares profesionales.',
@@ -285,6 +286,11 @@ const translations = {
         'tryout_who_note': 'Los cupos son limitados para garantizar scouting de calidad y atención individual.',
         'tryout_urgency': 'Cupos limitados. La inscripción se cierra al completar el cupo.',
         'tryout_cta': 'ASEGURA TU PLAZA',
+        'camp_thanks_heading': 'Gracias por su solicitud',
+        'camp_thanks_step': 'Solo un paso más.',
+        'camp_thanks_message': 'Complete el depósito de $150 para asegurar su plaza. Su registro solo se confirmará cuando el pago esté completado.',
+        'camp_thanks_cta': 'Pagar depósito de $150',
+        'camp_thanks_back': 'Volver al inicio',
     },
     'en': {
         // Metadata and title
@@ -303,6 +309,7 @@ const translations = {
         // Hero section
         'hero_title': 'Your Path to Professional Soccer Starts Here',
         'hero_subtitle': 'Elite training programs at CD Leganés in Madrid, Spain',
+        'hero_btn_miami_camp': 'Miami Camp 2026',
         'hero_btn_explore': 'Explore Programs',
         'hero_btn_apply': 'Apply Now',
         'hero_scroll_indicator': 'Scroll Down',
@@ -431,14 +438,13 @@ const translations = {
         // About us
         'about_title': 'About Us',
         'about_subtitle': 'Creating unique sporting experiences for young soccer players',
-        'about_p1': 'We are a company dedicated to creating unique sporting experiences for young soccer players from around the world. Our goal is to train, inspire, and project boys and girls passionate about soccer, providing them with real opportunities for growth both on and off the field.',
-        'about_p2': 'Based in Madrid and with a trajectory marked by excellence, we have years of experience working with international athletes. We have welcomed young people from countries such as the United States, different regions of South America, and the East, promoting a multicultural environment that enriches both sports and human aspects.',
-        'about_p3': 'We are driven by passion, seriousness, and commitment in each of our programs. We design comprehensive experiences where high-performance training is combined with personal development and cultural immersion. Our approach goes beyond soccer: we seek to discover and enhance talent, accompanying each young person on their journey towards a professional career or an unforgettable experience.',
-        'about_p4': 'Our team is led by professionals with outstanding international experience:',
-        'about_p5_name': 'Fernando Dignani',
-        'about_p5_description': 'Sports Director, brings his vast experience in elite player development and training program management.',
-        'about_p6': 'Germán Enrici, Director of International Relations, is the link between the different countries and cultures that come together in our projects, ensuring close communication and a quality global experience.',
-        'about_p7': 'We believe in the power of sport to transform lives. That\'s why we work with dedication and professionalism, building bridges between young talents and real opportunities.',
+        'about_p1': 'We are a Madrid-based company dedicated to creating unique sporting experiences for young soccer players worldwide. Our goal is to train, inspire, and project boys and girls passionate about soccer, providing them with opportunities for growth both on and off the field.',
+        'about_p2': 'With a trajectory marked by excellence, we have years of experience working with international athletes. We have welcomed young people from the United States, South America, and the East, promoting a multicultural environment that enriches both sports and human aspects.',
+        'about_p3': 'We design comprehensive experiences where high-performance training is combined with personal development and cultural immersion. Our team is led by professionals with outstanding international experience:',
+        'about_p4': 'Fernando Dignani',
+        'about_p4_desc': 'Sports Director, brings his vast experience in elite player development and training program management.',
+        'about_p5': 'Germán Enrici, Director of International Relations, is the link between the different countries and cultures that come together in our projects, ensuring close communication and a quality global experience.',
+        'about_p6': 'We believe in the power of sport to transform lives. We work with dedication and professionalism, building bridges between young talents and the professional world.',
         'about_facilities_btn': 'Discover Our Facilities',
         
         // Testimonials
@@ -510,7 +516,7 @@ const translations = {
         'footer_program_1year': 'Premium Program',
         'footer_contact_title': 'Contact Us',
         'footer_address': 'Estadio Municipal de Butarque, Leganés, Madrid, Spain',
-        'footer_copyright': '© 2025 Elite Soccer Scouting. All rights reserved.',
+        'footer_copyright': '© 2026 Elite Soccer Scouting. All rights reserved.',
         'footer_privacy': 'Privacy Policy',
         'footer_terms': 'Terms and Conditions',
         
@@ -553,6 +559,7 @@ const translations = {
         'tryout_benefit2': 'Professional-level training sessions',
         'tryout_benefit3': 'Real international scouting in Miami, Florida',
         'tryout_benefit4': 'Performance-based selection with direct access to Spain',
+        'tryout_benefit_kit': 'CD Leganés training kit',
         'tryout_age': 'For players aged 8–20.',
         'tryout_what_title': 'What is the CD Leganés Tryout International Camp?',
         'tryout_what_p1': 'The camp will take place in Miami, Florida: high-level training combined with an official tryout and selection process. Players are evaluated by official CD Leganés coaches who travel exclusively for the camp. They train, compete, and are assessed under professional standards.',
@@ -571,5 +578,10 @@ const translations = {
         'tryout_who_note': 'Spots are limited to ensure quality scouting and individual attention.',
         'tryout_urgency': 'Limited spots available. Registration will close once capacity is reached.',
         'tryout_cta': 'SECURE YOUR SPOT',
+        'camp_thanks_heading': 'Thank you for your application',
+        'camp_thanks_step': 'Just one more step.',
+        'camp_thanks_message': 'Complete the $150 deposit to secure your spot. Your registration will only be confirmed once payment is completed.',
+        'camp_thanks_cta': 'Pay $150 Deposit',
+        'camp_thanks_back': 'Back to Home',
     }
 }; 

@@ -177,6 +177,36 @@ img {
     color: var(--primary-color);
 }
 
+.btn-hero-camp {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #d4a83a 100%);
+    border-color: var(--secondary-color);
+    color: var(--dark-color);
+    font-weight: 700;
+    box-shadow: 0 4px 20px rgba(228, 181, 40, 0.4);
+}
+
+.btn-hero-camp::before {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.btn-hero-camp:hover {
+    background: linear-gradient(135deg, #e8b938 0%, var(--secondary-color) 100%);
+    border-color: var(--secondary-color);
+    color: var(--dark-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(228, 181, 40, 0.5);
+}
+
+.btn-hero-camp::after {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 12px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: url('images/bandera-usa.webp') no-repeat center/contain;
+}
+
 .btn-lg {
     padding: 15px 40px;
     font-size: 1rem;
@@ -556,8 +586,9 @@ nav ul li a.cta-button:after {
 
 .hero-buttons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 16px;
     animation: fadeInUp 1s ease-out 0.4s both;
 }
 
@@ -739,11 +770,12 @@ nav ul li a.cta-button:after {
     padding: 24px 28px;
     width: 100%;
     box-sizing: border-box;
+    text-align: left;
 }
 
 .tryout-benefits li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     gap: 12px;
     padding: 8px 0;
@@ -755,6 +787,13 @@ nav ul li a.cta-button:after {
     color: var(--secondary-color);
     font-size: 1.2rem;
     flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.tryout-benefits li span {
+    text-align: left;
+    min-width: 0;
+    flex: 1;
 }
 
 .tryout-age {
@@ -925,6 +964,9 @@ nav ul li a.cta-button:after {
     }
     .tryout-highlight-desc {
         font-size: 0.9rem;
+    }
+    .tryout-benefits {
+        padding: 20px 20px;
     }
     .tryout-benefits li {
         justify-content: flex-start;

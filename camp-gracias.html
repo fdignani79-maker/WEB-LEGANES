@@ -21,7 +21,8 @@
         }
         .camp-thanks-container { max-width: 600px; margin: 0 auto; }
         .camp-thanks-icon { font-size: 64px; color: var(--secondary-color); margin-bottom: 20px; }
-        .camp-thanks-heading { font-size: 2rem; margin-bottom: 24px; color: var(--primary-color); }
+        .camp-thanks-heading { font-size: 2rem; margin-bottom: 16px; color: var(--primary-color); }
+        .camp-thanks-step { font-size: 1.25rem; font-weight: 600; color: var(--secondary-color); margin-bottom: 16px; }
         .camp-thanks-message { font-size: 1.1rem; line-height: 1.7; margin-bottom: 16px; color: #555; }
         .camp-thanks-cta { margin-top: 32px; }
         .camp-thanks-cta .btn { font-size: 1.1rem; padding: 16px 32px; }
@@ -64,16 +65,14 @@
     <section class="camp-thanks-section">
         <div class="camp-thanks-container">
             <i class="fas fa-check-circle camp-thanks-icon"></i>
-            <h1 class="camp-thanks-heading">Thank you for registering.</h1>
-            <p class="camp-thanks-message">To secure your spot, please complete the $150 deposit payment.</p>
-            <p class="camp-thanks-message">Your registration is only confirmed once payment is completed.</p>
+            <h1 class="camp-thanks-heading" data-i18n="camp_thanks_heading">Thank you for your application</h1>
+            <p class="camp-thanks-step" data-i18n="camp_thanks_step">Just one more step.</p>
+            <p class="camp-thanks-message" data-i18n="camp_thanks_message">Complete the $150 deposit to secure your spot. Your registration will only be confirmed once payment is completed.</p>
             <div class="camp-thanks-cta">
-                <a href="https://buy.stripe.com/aFa3cubcO3Ji3aB9yG33W00" class="btn" target="_blank" rel="noopener noreferrer">
-                    Pay $150 Deposit
-                </a>
+                <a href="https://buy.stripe.com/aFa3cubcO3Ji3aB9yG33W00" class="btn" target="_blank" rel="noopener noreferrer" data-i18n="camp_thanks_cta">Pay $150 Deposit</a>
             </div>
             <div class="camp-thanks-back">
-                <a href="index.html" class="btn">Back to Home</a>
+                <a href="index.html" class="btn" data-i18n="camp_thanks_back">Back to Home</a>
             </div>
         </div>
     </section>
@@ -81,7 +80,7 @@
     <footer>
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2025 Elite Futbol Scouting. All rights reserved.</p>
+                <p>&copy; 2026 Elite Futbol Scouting. All rights reserved.</p>
             </div>
         </div>
     </footer>
