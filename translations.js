@@ -45,6 +45,11 @@ const translations = {
         'whatwe_card3_text': 'Partidos y análisis: rendimiento, ritmo, toma de decisiones y adaptación.',
         'whatwe_card4_title': 'Próximos pasos claros',
         'whatwe_card4_text': 'Recomendación del programa ideal y roadmap según perfil y objetivos del jugador.',
+        'whatwe_para1': 'Los jugadores entrenan dentro de entornos de clubes profesionales en España, viviendo la intensidad y el ritmo del fútbol europeo. Participan en sesiones de entrenamiento, partidos competitivos y situaciones de evaluación donde pueden desarrollar su nivel y mostrar su potencial.',
+        'whatwe_para2': 'Tras cada experiencia, ofrecemos una orientación clara sobre los próximos pasos, recomendando el programa que mejor se adapte al perfil y a los objetivos del jugador.',
+        'work_mini1': 'Metodología europea',
+        'work_mini2': 'Evaluación real',
+        'work_mini3': 'Roadmap claro',
         
         // Programs block
         'programs_short_term_title': 'Programas a corto plazo (hasta 1 mes)',
@@ -373,6 +378,11 @@ const translations = {
         'whatwe_card3_text': 'Matches and analysis: performance, rhythm, decision-making and adaptation.',
         'whatwe_card4_title': 'Clear next steps',
         'whatwe_card4_text': 'Recommendation of the ideal program and roadmap based on player profile and goals.',
+        'whatwe_para1': 'Players train within professional club environments in Spain, experiencing the intensity and rhythm of European football. They participate in training sessions, competitive matches, and evaluation situations where they can develop their level and showcase their potential.',
+        'whatwe_para2': 'After each experience, we provide clear guidance on the next steps, recommending the program that best fits the player\'s profile and goals.',
+        'work_mini1': 'European methodology',
+        'work_mini2': 'Real evaluation',
+        'work_mini3': 'Clear roadmap',
         
         // Programs block
         'programs_short_term_title': 'Short-Term Programs (Up to 1 month)',
