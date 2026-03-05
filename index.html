@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <div class="container">
             <div class="logo-language-wrapper">
                 <div class="logo">
@@ -60,6 +60,83 @@
             <div class="scroll-indicator">
                 <span data-i18n="hero_scroll_indicator">Desliza</span>
                 <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar: club logos -->
+    <section class="club-trust-bar" aria-label="Working with professional clubs">
+        <div class="container">
+            <p class="club-trust-bar-title" data-i18n="trust_bar_title">Working with professional clubs in Spain</p>
+            <div class="club-trust-bar-logos">
+                <img src="images/CD_Leganés-logo.png" alt="CD Leganés" width="80" height="80">
+                <img src="images/Getafe_logo.png" alt="Getafe CF" width="80" height="80">
+            </div>
+        </div>
+    </section>
+
+    <!-- Qué hacemos - premium layout -->
+    <section id="que-hacemos" class="whatwe">
+        <div class="whatwe__container">
+            <header class="whatwe__header">
+                <span class="whatwe__eyebrow" data-i18n="whatwe_eyebrow">Elite Futbol Scouting</span>
+                <h2 class="whatwe__title" data-i18n="whatwe_title">Nuestro trabajo</h2>
+                <p class="whatwe__subtitle" data-i18n="whatwe_subtitle">Conectamos jugadores internacionales con entornos de fútbol profesional en España. A través de alianzas con clubes como <strong>CD Leganés</strong> y <strong>Getafe CF</strong>, ofrecemos experiencias inmersivas donde los jugadores entrenan, compiten y son evaluados.</p>
+            </header>
+
+            <div class="whatwe__grid">
+                <div class="whatwe__content">
+                    <ul class="whatwe__bullets">
+                        <li><span class="whatwe__check" aria-hidden="true">✓</span><span data-i18n="whatwe_bullet1">Entrenamientos en entornos de club profesional</span></li>
+                        <li><span class="whatwe__check" aria-hidden="true">✓</span><span data-i18n="whatwe_bullet2">Metodología europea y entrenadores con licencia UEFA</span></li>
+                        <li><span class="whatwe__check" aria-hidden="true">✓</span><span data-i18n="whatwe_bullet3">Partidos competitivos + evaluación real de rendimiento</span></li>
+                        <li><span class="whatwe__check" aria-hidden="true">✓</span><span data-i18n="whatwe_bullet4">Orientación clara para próximos pasos (programas y pathway)</span></li>
+                    </ul>
+                    <div class="whatwe__cta">
+                        <a href="#programs" class="whatwe__btn whatwe__btn--primary" data-i18n="whatwe_cta_programs">Ver programas</a>
+                        <a href="#contact" class="whatwe__btn whatwe__btn--ghost" data-i18n="whatwe_cta_apply">Solicitar evaluación</a>
+                    </div>
+                </div>
+
+                <div class="whatwe__media">
+                    <img src="images/foto-facha-caminando.JPG" alt="Entrenamiento en entorno profesional en España" loading="lazy">
+                    <div class="whatwe__mediaOverlay" aria-hidden="true"></div>
+                    <div class="whatwe__badge">
+                        <span class="whatwe__badgeTitle" data-i18n="whatwe_badge_title">Entorno profesional</span>
+                        <span class="whatwe__badgeText" data-i18n="whatwe_badge_text">España • Club experience</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="whatwe__features">
+                <article class="featureCard">
+                    <div class="featureCard__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l8 4v6c0 5-3.5 8.5-8 8.5S4 18 4 13V7l8-4Z" stroke="currentColor" stroke-width="1.8"/><path d="M9 12l2 2 4-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3 class="featureCard__title" data-i18n="whatwe_card1_title">Entrenamiento profesional</h3>
+                    <p class="featureCard__text" data-i18n="whatwe_card1_text">Rutina europea dentro de un entorno real de club: intensidad, método y disciplina.</p>
+                </article>
+                <article class="featureCard">
+                    <div class="featureCard__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14" stroke="currentColor" stroke-width="1.8"/><path d="M7 8h10M7 12h10M7 16h7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="featureCard__title" data-i18n="whatwe_card2_title">Metodología UEFA</h3>
+                    <p class="featureCard__text" data-i18n="whatwe_card2_text">Trabajo técnico-táctico con estándares de formación europea y feedback accionable.</p>
+                </article>
+                <article class="featureCard">
+                    <div class="featureCard__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 1 0 9 9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v6l4 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="featureCard__title" data-i18n="whatwe_card3_title">Competencia + evaluación</h3>
+                    <p class="featureCard__text" data-i18n="whatwe_card3_text">Partidos y análisis: rendimiento, ritmo, toma de decisiones y adaptación.</p>
+                </article>
+                <article class="featureCard">
+                    <div class="featureCard__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M4 12h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M14 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 6h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M4 18h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3 class="featureCard__title" data-i18n="whatwe_card4_title">Próximos pasos claros</h3>
+                    <p class="featureCard__text" data-i18n="whatwe_card4_text">Recomendación del programa ideal y roadmap según perfil y objetivos del jugador.</p>
+                </article>
             </div>
         </div>
     </section>
@@ -147,11 +224,15 @@
                 <p data-i18n="programs_subtitle">Entrenamiento de fútbol profesional masculino y femenino inmersivo en uno de los clubes históricos de España</p>
             </div>
             
-            <div class="program-cards">
-                <div class="program-card">
+            <!-- Short-Term Programs -->
+            <div class="programs-block">
+                <h3 class="programs-block-title" data-i18n="programs_short_term_title">Short-Term Programs (Up to 1 month)</h3>
+                <p class="programs-block-intro" data-i18n="programs_short_term_intro">Ideal for players who want a first professional experience in Spain, receive an evaluation, and understand the European training environment before committing long-term.</p>
+                <div class="program-cards">
+                <div class="program-card program-card--short">
                     <div class="program-content">
                         <h3 data-i18n="program_1week_title">Programa Master (1 Semana)</h3>
-                        <p class="price">€2.200</p>
+                        <p class="program-best-for" data-i18n="program_1week_best_for">Best for international exposure and evaluation.</p>
                         <ul>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature1">5 días de sesiones de entrenamiento de élite</span></li>
@@ -160,17 +241,18 @@
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature4">Plan de desarrollo personalizado</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1week_feature5">Kit de entrenamiento oficial del CD Leganés</span></li>
                         </ul>
+                        <p class="price program-price-below">€2.200</p>
                         <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
                         <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
                         <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
                     </div>
                 </div>
 
-                <div class="program-card featured">
+                <div class="program-card program-card--short featured">
                     <div class="featured-tag" data-i18n="program_featured_tag">Más Popular</div>
                     <div class="program-content">
                         <h3 data-i18n="program_15days_title">Programa Pro (15 Días)</h3>
-                        <p class="price">€3.400</p>
+                        <p class="program-best-for" data-i18n="program_15days_best_for">Best for a deeper evaluation and competitive matches.</p>
                         <ul>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature1">10 días de sesiones intensivas de entrenamiento</span></li>
@@ -181,16 +263,17 @@
                             <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature7">Partidos de entrenamiento con equipos juveniles del CD Leganés</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_15days_feature9">Paquete completo de kit de entrenamiento del CD Leganés</span></li>
                         </ul>
+                        <p class="price program-price-below">€3.400</p>
                         <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
                         <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
                         <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
                     </div>
                 </div>
 
-                <div class="program-card">
+                <div class="program-card program-card--short">
                     <div class="program-content">
                         <h3 data-i18n="program_1month_title">Programa Élite (1 Mes)</h3>
-                        <p class="price">€5.300</p>
+                        <p class="program-best-for" data-i18n="program_1month_best_for">Best for integration into club structure and competitive exposure.</p>
                         <ul>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature1">20 días de entrenamiento de nivel profesional</span></li>
@@ -203,16 +286,24 @@
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature11">Posible recomendación a clubes/academias</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1month_feature12">Kit completo de entrenamiento y partido del CD Leganés</span></li>
                         </ul>
+                        <p class="price program-price-below">€5.300</p>
                         <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
                         <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
                         <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
                     </div>
                 </div>
+                </div>
+            </div>
 
+            <!-- Long-Term Programs -->
+            <div class="programs-block programs-block--longterm">
+                <h3 class="programs-block-title" data-i18n="programs_long_term_title">Long-Term Development Programs (2 months – 1 year)</h3>
+                <p class="programs-block-intro" data-i18n="programs_long_term_intro">Designed for players seeking consistent development within a structured European routine, with deeper coaching, competition exposure, and long-term progression support.</p>
+                <div class="program-cards program-cards--longterm">
                 <div class="program-card">
                     <div class="program-content">
                         <h3 data-i18n="program_2months_title">Programa Avanzado (2 Meses)</h3>
-                        <p class="price">€8.700</p>
+                        <p class="program-best-for" data-i18n="program_2months_best_for">Best for sustained development and scouting exposure.</p>
                         <ul>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature1">40 días de entrenamiento de nivel profesional</span></li>
@@ -226,6 +317,7 @@
                             <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature11">Posible recomendación a clubes/academias</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_2months_feature12">Kit completo de entrenamiento y partido del CD Leganés</span></li>
                         </ul>
+                        <p class="price program-price-below">€8.700</p>
                         <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
                         <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
                         <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
@@ -235,7 +327,7 @@
                 <div class="program-card">
                     <div class="program-content">
                         <h3 data-i18n="program_3months_title">Programa Superior (3 Meses)</h3>
-                        <p class="price">€11.300</p>
+                        <p class="program-best-for" data-i18n="program_3months_best_for">Best for extended integration and academy competition.</p>
                         <ul>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature0">Alojamiento y 40 tickets para almuerzo/cena + 20 tickets para desayuno/merienda</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature1">60 días de entrenamiento de nivel profesional</span></li>
@@ -249,16 +341,23 @@
                             <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature11">Posible recomendación a clubes/academias</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_3months_feature12">Kit completo de entrenamiento y partido del CD Leganés</span></li>
                         </ul>
+                        <p class="price program-price-below">€11.300</p>
                         <p class="note" data-i18n="program_note">* Aéreo no incluido</p>
                         <p class="note" data-i18n="program_medical_note">* Cobertura médica a cargo del jugador</p>
                         <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
                     </div>
                 </div>
 
-                <div class="program-card">
+                <div class="program-cards__logo-cell">
+                    <div class="programs-logo">
+                        <img src="images/logoefs-sinfondo.png" alt="Elite Futbol Scouting Logo">
+                    </div>
+                </div>
+
+                <div class="program-card program-card--tall">
                     <div class="program-content">
                         <h3 data-i18n="program_1year_title">Programa Premium – 1 Año en Madrid</h3>
-                        <p class="price" data-i18n="program_1year_price">€25.500</p>
+                        <p class="program-best-for" data-i18n="program_1year_best_for">Best for full-season integration and professional pathway.</p>
                         <p class="program-description" data-i18n="program_1year_description">Para jugadores que buscan dar el salto al fútbol profesional europeo. Este programa está diseñado para integrar al jugador a la estructura oficial del CD Leganés durante toda una temporada.</p>
                         
                         <ul>
@@ -275,6 +374,7 @@
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature12">Oportunidad real de proyección internacional</span></li>
                             <li><i class="fas fa-check"></i> <span data-i18n="program_1year_feature13">Contacto directo con clubes europeos</span></li>
                         </ul>
+                        <p class="price program-price-below" data-i18n="program_1year_price">€25.500</p>
                         
                         <div class="educational-requirements">
                             <h4 data-i18n="program_1year_requirements_title">Requisitos Educativos</h4>
@@ -297,12 +397,6 @@
                         <a href="#contact" class="btn" data-i18n="program_apply_btn">Solicitar Ahora</a>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Logo section -->
-            <div class="programs-logo-section">
-                <div class="programs-logo">
-                    <img src="images/logoefs-sinfondo.png" alt="Elite Futbol Scouting Logo">
                 </div>
             </div>
         </div>
@@ -311,7 +405,7 @@
     <section id="why-us" class="why-us">
         <div class="container">
             <div class="section-header">
-                <h2 data-i18n="why_us_title">Por Qué Elegir Elite Futbol</h2>
+                <h2 data-i18n="why_us_title">Por Qué Elegir Elite Futbol Scouting</h2>
                 <p data-i18n="why_us_subtitle">Tu puerta de entrada al fútbol profesional en Europa</p>
             </div>
             
@@ -321,7 +415,7 @@
                         <i class="fas fa-building"></i>
                     </div>
                     <h3 data-i18n="feature1_title">Entorno de Club Profesional</h3>
-                    <p data-i18n="feature1_text">Entrena en el CD Leganés, un club con rica historia en el fútbol español e instalaciones profesionales.</p>
+                    <p data-i18n="feature1_text">Entrena en el CD Leganés y el Getafe CF, clubes con rica historia en el fútbol español e instalaciones profesionales.</p>
                 </div>
                 
                 <div class="feature">
@@ -345,7 +439,7 @@
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h3 data-i18n="feature4_title">Desarrollo Basado en Datos</h3>
-                    <p data-i18n="feature4_text">Recibe análisis detallados de rendimiento y evaluaciones técnicas para seguir tu mejora.</p>
+                    <p data-i18n="feature4_text">Recibe análisis detallados de rendimiento y evaluaciones físicas para seguir tu mejora.</p>
                 </div>
             </div>
         </div>

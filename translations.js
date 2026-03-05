@@ -22,6 +22,42 @@ const translations = {
         'hero_btn_apply': 'Solicitar Ahora',
         'hero_scroll_indicator': 'Desliza',
         
+        // Trust Bar
+        'trust_bar_title': 'Trabajando con clubes profesionales en España',
+        
+        // Qué hacemos (What We Do)
+        'whatwe_eyebrow': 'Elite Futbol Scouting',
+        'whatwe_title': 'Nuestro trabajo',
+        'whatwe_subtitle': 'Conectamos jugadores internacionales con entornos de fútbol profesional en España. A través de alianzas con clubes como <strong>CD Leganés</strong> y <strong>Getafe CF</strong>, ofrecemos experiencias inmersivas donde los jugadores entrenan, compiten y son evaluados.',
+        'whatwe_bullet1': 'Entrenamientos en entornos de club profesional',
+        'whatwe_bullet2': 'Metodología europea y entrenadores con licencia UEFA',
+        'whatwe_bullet3': 'Partidos competitivos + evaluación real de rendimiento',
+        'whatwe_bullet4': 'Orientación clara para próximos pasos (programas y pathway)',
+        'whatwe_cta_programs': 'Ver programas',
+        'whatwe_cta_apply': 'Solicitar evaluación',
+        'whatwe_badge_title': 'Entorno profesional',
+        'whatwe_badge_text': 'España • Club experience',
+        'whatwe_card1_title': 'Entrenamiento profesional',
+        'whatwe_card1_text': 'Rutina europea dentro de un entorno real de club: intensidad, método y disciplina.',
+        'whatwe_card2_title': 'Metodología UEFA',
+        'whatwe_card2_text': 'Trabajo técnico-táctico con estándares de formación europea y feedback accionable.',
+        'whatwe_card3_title': 'Competencia + evaluación',
+        'whatwe_card3_text': 'Partidos y análisis: rendimiento, ritmo, toma de decisiones y adaptación.',
+        'whatwe_card4_title': 'Próximos pasos claros',
+        'whatwe_card4_text': 'Recomendación del programa ideal y roadmap según perfil y objetivos del jugador.',
+        
+        // Programs block
+        'programs_short_term_title': 'Programas a corto plazo (hasta 1 mes)',
+        'programs_short_term_intro': 'Ideal para jugadores que quieren una primera experiencia profesional en España, recibir una evaluación y conocer el entorno de entrenamiento europeo antes de comprometerse a largo plazo.',
+        'programs_long_term_title': 'Programas de desarrollo a largo plazo (2 meses – 1 año)',
+        'programs_long_term_intro': 'Diseñados para jugadores que buscan un desarrollo constante dentro de una rutina europea estructurada, con mayor profundidad en el coaching, exposición competitiva y apoyo para la progresión a largo plazo.',
+        'program_1week_best_for': 'Ideal para exposición internacional y evaluación.',
+        'program_15days_best_for': 'Ideal para una evaluación más profunda y partidos competitivos.',
+        'program_1month_best_for': 'Ideal para integración en la estructura del club y exposición competitiva.',
+        'program_2months_best_for': 'Ideal para desarrollo sostenido y exposición ante ojeadores.',
+        'program_3months_best_for': 'Ideal para integración extendida y competición en academia.',
+        'program_1year_best_for': 'Ideal para integración de temporada completa y proyección profesional.',
+        
         // Programas
         'programs_title': 'Programas de Entrenamiento',
         'programs_subtitle': 'Entrenamiento de fútbol profesional masculino y femenino inmersivo en uno de los clubes históricos de España',
@@ -130,18 +166,18 @@ const translations = {
         'program_1year_note_airfare': '* Aéreo no incluido',
         
         // Por qué elegirnos
-        'why_us_title': 'Por Qué Elegir Elite Futbol',
+        'why_us_title': 'Por Qué Elegir Elite Futbol Scouting',
         'why_us_subtitle': 'Tu puerta de entrada al fútbol profesional en Europa',
         
         // Características
         'feature1_title': 'Entorno de Club Profesional',
-        'feature1_text': 'Entrena en el CD Leganés, un club con rica historia en el fútbol español e instalaciones profesionales.',
+        'feature1_text': 'Entrena en el CD Leganés y el Getafe CF, clubes con rica historia en el fútbol español e instalaciones profesionales.',
         'feature2_title': 'Entrenamiento de Élite',
         'feature2_text': 'Aprende de entrenadores con licencia UEFA que han desarrollado jugadores profesionales y entienden lo que se necesita para triunfar.',
         'feature3_title': 'Oportunidad de Exposición',
         'feature3_text': 'Muestra tu talento frente a ojeadores profesionales con posibles caminos hacia pruebas y contratos.',
         'feature4_title': 'Desarrollo Basado en Datos',
-        'feature4_text': 'Recibe análisis detallados de rendimiento y evaluaciones técnicas para seguir tu mejora.',
+        'feature4_text': 'Recibe análisis detallados de rendimiento y evaluaciones físicas para seguir tu mejora.',
         
         // Sobre nosotros
         'about_title': 'Quienes Somos',
@@ -314,6 +350,42 @@ const translations = {
         'hero_btn_apply': 'Apply Now',
         'hero_scroll_indicator': 'Scroll Down',
         
+        // Trust Bar
+        'trust_bar_title': 'Working with professional clubs in Spain',
+        
+        // Qué hacemos (What We Do)
+        'whatwe_eyebrow': 'Elite Futbol Scouting',
+        'whatwe_title': 'Our work',
+        'whatwe_subtitle': 'We connect international players with professional football environments in Spain. Through partnerships with clubs such as <strong>CD Leganés</strong> and <strong>Getafe CF</strong>, we offer immersive experiences where players train, compete, and are evaluated.',
+        'whatwe_bullet1': 'Training in professional club environments',
+        'whatwe_bullet2': 'European methodology and UEFA-licensed coaches',
+        'whatwe_bullet3': 'Competitive matches + real performance evaluation',
+        'whatwe_bullet4': 'Clear guidance for next steps (programs and pathway)',
+        'whatwe_cta_programs': 'View programs',
+        'whatwe_cta_apply': 'Request evaluation',
+        'whatwe_badge_title': 'Professional environment',
+        'whatwe_badge_text': 'Spain • Club experience',
+        'whatwe_card1_title': 'Professional training',
+        'whatwe_card1_text': 'European routine in a real club setting: intensity, method and discipline.',
+        'whatwe_card2_title': 'UEFA methodology',
+        'whatwe_card2_text': 'Technical-tactical work with European training standards and actionable feedback.',
+        'whatwe_card3_title': 'Competition + evaluation',
+        'whatwe_card3_text': 'Matches and analysis: performance, rhythm, decision-making and adaptation.',
+        'whatwe_card4_title': 'Clear next steps',
+        'whatwe_card4_text': 'Recommendation of the ideal program and roadmap based on player profile and goals.',
+        
+        // Programs block
+        'programs_short_term_title': 'Short-Term Programs (Up to 1 month)',
+        'programs_short_term_intro': 'Ideal for players who want a first professional experience in Spain, receive an evaluation, and understand the European training environment before committing long-term.',
+        'programs_long_term_title': 'Long-Term Development Programs (2 months – 1 year)',
+        'programs_long_term_intro': 'Designed for players seeking consistent development within a structured European routine, with deeper coaching, competition exposure, and long-term progression support.',
+        'program_1week_best_for': 'Best for international exposure and evaluation.',
+        'program_15days_best_for': 'Best for a deeper evaluation and competitive matches.',
+        'program_1month_best_for': 'Best for integration into club structure and competitive exposure.',
+        'program_2months_best_for': 'Best for sustained development and scouting exposure.',
+        'program_3months_best_for': 'Best for extended integration and academy competition.',
+        'program_1year_best_for': 'Best for full-season integration and professional pathway.',
+        
         // Programs
         'programs_title': 'Training Programs',
         'programs_subtitle': 'Immersive professional male and female soccer training at one of Spain\'s historic clubs',
@@ -422,18 +494,18 @@ const translations = {
         'program_1year_note_airfare': '* Airfare not included',
         
         // Why choose us
-        'why_us_title': 'Why Choose Elite Soccer',
+        'why_us_title': 'Why Choose Elite Futbol Scouting',
         'why_us_subtitle': 'Your gateway to professional soccer in Europe',
         
         // Features
         'feature1_title': 'Professional Club Environment',
-        'feature1_text': 'Train at CD Leganés, a club with rich history in Spanish soccer and professional facilities.',
+        'feature1_text': 'Train at CD Leganés and Getafe CF, clubs with rich history in Spanish soccer and professional facilities.',
         'feature2_title': 'Elite Training',
         'feature2_text': 'Learn from UEFA-licensed coaches who have developed professional players and understand what it takes to succeed.',
         'feature3_title': 'Exposure Opportunity',
         'feature3_text': 'Showcase your talent in front of professional scouts with potential pathways to trials and contracts.',
         'feature4_title': 'Data-Driven Development',
-        'feature4_text': 'Receive detailed performance analysis and technical evaluations to track your improvement.',
+        'feature4_text': 'Receive detailed performance analysis and physical evaluations to track your improvement.',
         
         // About us
         'about_title': 'About Us',

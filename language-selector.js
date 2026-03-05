@@ -51,8 +51,8 @@ function updatePageTexts(lang) {
             }
             // Para cualquier otro elemento, actualizar el contenido HTML
             else {
-                // Si el valor contiene HTML (como <br>), usar innerHTML
-                if (translations[lang][key].includes('<br>')) {
+                // Si el valor contiene HTML (como <br>, <strong>), usar innerHTML
+                if (translations[lang][key].includes('<') && translations[lang][key].includes('>')) {
                     element.innerHTML = translations[lang][key];
                 } else {
                     element.textContent = translations[lang][key];
