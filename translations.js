@@ -28,7 +28,7 @@ const translations = {
         // Qué hacemos (What We Do)
         'whatwe_eyebrow': 'Elite Futbol Scouting',
         'whatwe_title': 'Nuestro trabajo',
-        'whatwe_subtitle': 'Conectamos jugadores internacionales con entornos de fútbol profesional en España. A través de alianzas con clubes como <strong>CD Leganés</strong> y <strong>Getafe CF</strong>, ofrecemos experiencias inmersivas donde los jugadores entrenan, compiten y son evaluados.',
+        'whatwe_subtitle': 'Conectamos jugadores internacionales con entornos de fútbol profesional en España, en colaboración con clubes como <strong>CD Leganés</strong> y <strong>Getafe CF</strong>.',
         'whatwe_bullet1': 'Entrenamientos en entornos de club profesional',
         'whatwe_bullet2': 'Metodología europea y entrenadores con licencia UEFA',
         'whatwe_bullet3': 'Partidos competitivos + evaluación real de rendimiento',
@@ -45,11 +45,11 @@ const translations = {
         'whatwe_card3_text': 'Partidos y análisis: rendimiento, ritmo, toma de decisiones y adaptación.',
         'whatwe_card4_title': 'Próximos pasos claros',
         'whatwe_card4_text': 'Recomendación del programa ideal y roadmap según perfil y objetivos del jugador.',
-        'whatwe_para1': 'Los jugadores entrenan dentro de entornos de clubes profesionales en España, viviendo la intensidad y el ritmo del fútbol europeo. Participan en sesiones de entrenamiento, partidos competitivos y situaciones de evaluación donde pueden desarrollar su nivel y mostrar su potencial.',
-        'whatwe_para2': 'Tras cada experiencia, ofrecemos una orientación clara sobre los próximos pasos, recomendando el programa que mejor se adapte al perfil y a los objetivos del jugador.',
-        'work_mini1': 'Metodología europea',
-        'work_mini2': 'Evaluación real',
-        'work_mini3': 'Roadmap claro',
+        'whatwe_para1': 'Los jugadores entrenan, compiten y viven la dinámica real de un club profesional, desarrollando su nivel y mostrando su rendimiento en un contexto europeo.',
+        'whatwe_para2': 'Al finalizar la experiencia, ofrecemos una evaluación y una orientación clara sobre los próximos pasos en su desarrollo deportivo.',
+        'work_mini1': 'Entorno profesional',
+        'work_mini2': 'Competencia',
+        'work_mini3': 'Desarrollo',
         
         // Programs block
         'programs_short_term_title': 'Programas a corto plazo (hasta 1 mes)',
@@ -361,7 +361,7 @@ const translations = {
         // Qué hacemos (What We Do)
         'whatwe_eyebrow': 'Elite Futbol Scouting',
         'whatwe_title': 'Our work',
-        'whatwe_subtitle': 'We connect international players with professional football environments in Spain. Through partnerships with clubs such as <strong>CD Leganés</strong> and <strong>Getafe CF</strong>, we offer immersive experiences where players train, compete, and are evaluated.',
+        'whatwe_subtitle': 'We connect international players with professional football environments in Spain, in collaboration with clubs such as <strong>CD Leganés</strong> and <strong>Getafe CF</strong>.',
         'whatwe_bullet1': 'Training in professional club environments',
         'whatwe_bullet2': 'European methodology and UEFA-licensed coaches',
         'whatwe_bullet3': 'Competitive matches + real performance evaluation',
@@ -378,11 +378,11 @@ const translations = {
         'whatwe_card3_text': 'Matches and analysis: performance, rhythm, decision-making and adaptation.',
         'whatwe_card4_title': 'Clear next steps',
         'whatwe_card4_text': 'Recommendation of the ideal program and roadmap based on player profile and goals.',
-        'whatwe_para1': 'Players train within professional club environments in Spain, experiencing the intensity and rhythm of European football. They participate in training sessions, competitive matches, and evaluation situations where they can develop their level and showcase their potential.',
-        'whatwe_para2': 'After each experience, we provide clear guidance on the next steps, recommending the program that best fits the player\'s profile and goals.',
-        'work_mini1': 'European methodology',
-        'work_mini2': 'Real evaluation',
-        'work_mini3': 'Clear roadmap',
+        'whatwe_para1': 'Players train, compete, and experience the real dynamics of a professional club, developing their level and showcasing their performance in a European context.',
+        'whatwe_para2': 'At the end of the experience, we provide an evaluation and clear guidance on the next steps in their sports development.',
+        'work_mini1': 'Professional environment',
+        'work_mini2': 'Competition',
+        'work_mini3': 'Development',
         
         // Programs block
         'programs_short_term_title': 'Short-Term Programs (Up to 1 month)',
