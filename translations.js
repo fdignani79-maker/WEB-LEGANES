@@ -28,7 +28,7 @@ const translations = {
         // Qué hacemos (What We Do)
         'whatwe_eyebrow': 'Elite Futbol Scouting',
         'whatwe_title': 'Nuestro trabajo',
-        'whatwe_subtitle': 'Conectamos jugadores internacionales con entornos de fútbol profesional en España, en colaboración con clubes como <strong>CD Leganés</strong> y <strong>Getafe CF</strong>.',
+        'whatwe_subtitle': 'Conectamos jugadores internacionales con entornos de fútbol profesional en España, en colaboración con el <strong>CD Leganés</strong>.',
         'whatwe_bullet1': 'Entrenamientos en entornos de club profesional',
         'whatwe_bullet2': 'Metodología europea y entrenadores con licencia UEFA',
         'whatwe_bullet3': 'Partidos competitivos + evaluación de rendimiento',
@@ -47,10 +47,6 @@ const translations = {
         'whatwe_card4_text': 'Recomendación del programa ideal y roadmap según perfil y objetivos del jugador.',
         'whatwe_para1': 'Los jugadores entrenan, compiten y viven la dinámica de un club profesional, desarrollando su nivel y mostrando su rendimiento en un contexto europeo.',
         'whatwe_para2': 'Al finalizar la experiencia, ofrecemos una evaluación y una orientación clara sobre los próximos pasos en su desarrollo deportivo.',
-        'work_mini1': 'Entorno profesional',
-        'work_mini2': 'Competencia',
-        'work_mini3': 'Desarrollo',
-        
         // Programs block
         'programs_short_term_title': 'Programas a corto plazo (hasta 1 mes)',
         'programs_short_term_intro': 'Ideal para jugadores que quieren una primera experiencia profesional en España, recibir una evaluación y conocer el entorno de entrenamiento europeo antes de comprometerse a largo plazo.',
@@ -176,7 +172,7 @@ const translations = {
         
         // Características
         'feature1_title': 'Entorno de Club Profesional',
-        'feature1_text': 'Entrena en el CD Leganés y el Getafe CF, clubes con rica historia en el fútbol español e instalaciones profesionales.',
+        'feature1_text': 'Entrena en el CD Leganés, club con rica historia en el fútbol español e instalaciones profesionales.',
         'feature2_title': 'Entrenamiento de Élite',
         'feature2_text': 'Aprende de entrenadores con licencia UEFA que han desarrollado jugadores profesionales y entienden lo que se necesita para triunfar.',
         'feature3_title': 'Oportunidad de Exposición',
@@ -361,7 +357,7 @@ const translations = {
         // Qué hacemos (What We Do)
         'whatwe_eyebrow': 'Elite Futbol Scouting',
         'whatwe_title': 'Our work',
-        'whatwe_subtitle': 'We connect international players with professional football environments in Spain, in collaboration with clubs such as <strong>CD Leganés</strong> and <strong>Getafe CF</strong>.',
+        'whatwe_subtitle': 'We connect international players with professional football environments in Spain, in collaboration with <strong>CD Leganés</strong>.',
         'whatwe_bullet1': 'Training in professional club environments',
         'whatwe_bullet2': 'European methodology and UEFA-licensed coaches',
         'whatwe_bullet3': 'Competitive matches + performance evaluation',
@@ -380,10 +376,6 @@ const translations = {
         'whatwe_card4_text': 'Recommendation of the ideal program and roadmap based on player profile and goals.',
         'whatwe_para1': 'Players train, compete, and experience the dynamics of a professional club, developing their level and showcasing their performance in a European context.',
         'whatwe_para2': 'At the end of the experience, we provide an evaluation and clear guidance on the next steps in their sports development.',
-        'work_mini1': 'Professional environment',
-        'work_mini2': 'Competition',
-        'work_mini3': 'Development',
-        
         // Programs block
         'programs_short_term_title': 'Short-Term Programs (Up to 1 month)',
         'programs_short_term_intro': 'Ideal for players who want a first professional experience in Spain, receive an evaluation, and understand the European training environment before committing long-term.',
@@ -509,7 +501,7 @@ const translations = {
         
         // Features
         'feature1_title': 'Professional Club Environment',
-        'feature1_text': 'Train at CD Leganés and Getafe CF, clubs with rich history in Spanish soccer and professional facilities.',
+        'feature1_text': 'Train at CD Leganés, a club with rich history in Spanish soccer and professional facilities.',
         'feature2_title': 'Elite Training',
         'feature2_text': 'Learn from UEFA-licensed coaches who have developed professional players and understand what it takes to succeed.',
         'feature3_title': 'Exposure Opportunity',
