@@ -396,7 +396,7 @@ const translations = {
         // 1 Week Program
         'program_1week_duration': '1 Week',
         'program_1week_title': 'Master Program (1 Week)',
-        'program_1week_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
+        'program_1week_feature0': 'Accommodation and meals included',
         'program_1week_feature1': '5 days of elite training sessions',
         'program_1week_feature2': 'Professional training with CD Leganés staff',
         'program_1week_feature3': 'Tactical and technical evaluation',
@@ -410,7 +410,7 @@ const translations = {
         // 15 Days Program
         'program_15days_duration': '15 Days',
         'program_15days_title': 'Pro Program (15 Days)',
-        'program_15days_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
+        'program_15days_feature0': 'Accommodation and meals included',
         'program_15days_feature1': '10 days of intensive training sessions',
         'program_15days_feature3': 'Comprehensive skills assessment',
         'program_15days_feature4': 'Personalized development plan',
@@ -424,7 +424,7 @@ const translations = {
         // 1 Month Program
         'program_1month_duration': '1 Month',
         'program_1month_title': 'Elite Program (1 Month)',
-        'program_1month_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
+        'program_1month_feature0': 'Accommodation and meals included',
         'program_1month_feature1': '20 days of professional-level training',
         'program_1month_feature2': 'Integration with CD Leganés training structure',
         'program_1month_feature4': 'Comprehensive technical and tactical development',
@@ -440,7 +440,7 @@ const translations = {
         // 2 Months Program
         'program_2months_duration': '2 Months',
         'program_2months_title': 'Advanced Program (2 Months)',
-        'program_2months_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
+        'program_2months_feature0': 'Accommodation and meals included',
         'program_2months_feature1': '40 days of professional-level training',
         'program_2months_feature2': 'Integration with CD Leganés training structure',
         'program_2months_feature4': 'Comprehensive technical and tactical development',
@@ -456,7 +456,7 @@ const translations = {
         // 3 Months Program
         'program_3months_duration': '3 Months',
         'program_3months_title': 'Superior Program (3 Months)',
-        'program_3months_feature0': 'Accommodation and 40 tickets for lunch/dinner + 20 tickets for breakfast/snack',
+        'program_3months_feature0': 'Accommodation and meals included',
         'program_3months_feature1': '60 days of professional-level training',
         'program_3months_feature2': 'Integration with CD Leganés training structure',
         'program_3months_feature4': 'Comprehensive technical and tactical development',
