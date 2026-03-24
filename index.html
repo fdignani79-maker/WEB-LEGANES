@@ -542,6 +542,88 @@
         </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="faq_title">Preguntas Frecuentes</h2>
+                <p data-i18n="faq_subtitle">Resolvemos tus dudas antes de dar el primer paso</p>
+            </div>
+
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q1">¿Qué nivel se necesita para participar?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a1">No exigimos un nivel mínimo certificado, pero los programas están diseñados para jugadores competitivos que entrenan regularmente y buscan dar un salto en su desarrollo. Durante la evaluación inicial determinamos el programa más adecuado.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q2">¿El vuelo está incluido en el precio?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a2">No, el aéreo no está incluido. Todos los programas incluyen alojamiento y comidas en España. El jugador o su familia gestionan el vuelo de forma independiente.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q3">¿Se necesita visa para viajar a España?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a3">Depende del país de origen. Ciudadanos de la UE y de muchos países de Latinoamérica pueden ingresar como turistas hasta 90 días. Para el programa de 1 año se requiere pasaporte o ciudadanía europea. Te asesoramos en cada caso.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q4">¿Qué incluye el alojamiento?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a4">Los jugadores se alojan en residencias cercanas al club con habitaciones compartidas, zonas comunes y comidas incluidas (desayuno, almuerzo y cena). El entorno es seguro y supervisado.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q5">¿Cómo funciona el alojamiento según la edad?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a5">A partir de 16 años, los programas incluyen residencia completa (alojamiento y comidas) en las instalaciones del club. Para jugadores menores de 16 años, el alojamiento no está incluido: deben residir con su familia o tutor legal, que se encarga de su hospedaje durante la estancia.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q6">¿A partir de qué edad se puede participar?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a6">Los programas están abiertos para jugadores de 8 a 20 años. Los menores de edad deben contar con autorización de sus padres o tutores legales.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-i18n="faq_q7">¿Qué pasa después del programa?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-i18n="faq_a7">Al finalizar, cada jugador recibe un informe profesional de evaluación con recomendaciones claras. Según su rendimiento, puede recibir una recomendación para continuar en un programa más largo, una prueba con un club o una orientación sobre sus próximos pasos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
@@ -878,9 +960,17 @@
         });
         
         scrollToTopBtn.addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isOpen = item.classList.contains('faq-item--open');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('faq-item--open'));
+                if (!isOpen) item.classList.add('faq-item--open');
+                btn.setAttribute('aria-expanded', !isOpen);
             });
         });
 
