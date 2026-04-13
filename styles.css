@@ -773,14 +773,15 @@ nav ul li a.cta-button:after {
 }
 
 .work__right {
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 253, 0.96));
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(12px);
     border-radius: 24px;
     padding: clamp(14px, 1.8vw, 20px);
     box-shadow:
-        0 28px 64px rgba(0, 0, 0, 0.35),
-        0 0 0 1px rgba(255, 255, 255, 0.06) inset;
-    color: #1b2b44;
+        0 24px 56px rgba(0, 0, 0, 0.28),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.92);
 }
 
 .work__media {
@@ -788,6 +789,8 @@ nav ul li a.cta-button:after {
     border-radius: 18px;
     overflow: hidden;
     aspect-ratio: 16 / 10;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
 .work__media img {
@@ -840,24 +843,25 @@ nav ul li a.cta-button:after {
     gap: 10px;
 }
 
-.work__features li {
+.work__right .work__features li {
     display: flex;
     gap: 10px;
     align-items: flex-start;
-    color: #172841;
+    color: rgba(255, 255, 255, 0.88);
     font-size: 0.9375rem;
     line-height: 1.55;
 }
 
-.work__check {
+.work__right .work__check {
     width: 22px;
     height: 22px;
     border-radius: 999px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(200, 162, 74, 0.16);
-    color: var(--gold-accent, #C8A24A);
+    background: rgba(228, 181, 40, 0.22);
+    border: 1px solid rgba(228, 181, 40, 0.35);
+    color: var(--secondary-color);
     font-weight: 800;
     flex: 0 0 22px;
     margin-top: 1px;
@@ -897,14 +901,16 @@ nav ul li a.cta-button:after {
 }
 
 .work__cta .btn--ghost {
-    background: rgba(255, 255, 255, 0.84);
-    border: 1px solid rgba(15, 42, 82, 0.24);
-    color: #0c2850;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    color: #fff;
 }
 
 .work__cta .btn--ghost:hover {
     transform: translateY(-2px);
-    border-color: rgba(15, 42, 82, 0.34);
+    border-color: rgba(228, 181, 40, 0.55);
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
 }
 
 .work__trust {
@@ -1079,7 +1085,7 @@ nav ul li a.cta-button:after {
         font-size: 0.9375rem;
     }
 
-    .work__features li {
+    .work__right .work__features li {
         font-size: 0.875rem;
     }
 
