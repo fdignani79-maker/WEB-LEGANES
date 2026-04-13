@@ -87,6 +87,28 @@
                         <p data-i18n="whatwe_para1">Los jugadores entrenan, compiten y viven la dinámica de un club profesional, desarrollando su nivel y mostrando su rendimiento en un contexto europeo.</p>
                         <p data-i18n="whatwe_para2">Al finalizar la experiencia, ofrecemos una evaluación y una orientación clara sobre los próximos pasos en su desarrollo deportivo.</p>
                     </div>
+
+                    <div class="work__process-band" aria-labelledby="work-process-heading">
+                        <p class="work__process-lead" id="work-process-heading" data-i18n="whatwe_process_lead">Te indicaremos los pasos que seguiremos.</p>
+                        <ol class="work__process-steps">
+                            <li class="work__process-step">
+                                <span class="work__process-icon" aria-hidden="true"><i class="fas fa-clipboard-check"></i></span>
+                                <span class="work__process-label" data-i18n="whatwe_process_step1">Evaluación inicial</span>
+                            </li>
+                            <li class="work__process-step">
+                                <span class="work__process-icon" aria-hidden="true"><i class="fas fa-user-edit"></i></span>
+                                <span class="work__process-label" data-i18n="whatwe_process_step2">Solicitud con tus datos</span>
+                            </li>
+                            <li class="work__process-step">
+                                <span class="work__process-icon" aria-hidden="true"><i class="fas fa-search"></i></span>
+                                <span class="work__process-label" data-i18n="whatwe_process_step3">Revisión por el equipo</span>
+                            </li>
+                            <li class="work__process-step">
+                                <span class="work__process-icon" aria-hidden="true"><i class="fas fa-comments"></i></span>
+                                <span class="work__process-label" data-i18n="whatwe_process_step4">Videollamada y siguiente paso</span>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
 
                 <aside class="work__right">
@@ -629,75 +651,18 @@
             
             <div class="contact-wrapper">
                 <div class="contact-form">
-                    <form id="application-form" action="https://formspree.io/f/xzzrbvwd" method="POST">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name" data-i18n="contact_form_name">Nombre Completo*</label>
-                                <input type="text" id="name" name="name" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="dob" data-i18n="contact_form_dob">Fecha de Nacimiento*</label>
-                                <input type="date" id="dob" name="dob" required>
-                            </div>
+                    <div class="contact-payment-first">
+                        <p class="contact-payment-first__step" data-i18n="contact_payment_step_label">Paso 1</p>
+                        <h3 class="contact-payment-first__title" data-i18n="contact_payment_first_title">Evaluación inicial — el inicio de tu camino en España</h3>
+                        <p class="contact-payment-first__lead" data-i18n="contact_payment_first_lead">Reserva tu evaluación inicial con el equipo: priorizamos jugadores que dan este paso, por la alta demanda de consultas.</p>
+                        <p class="contact-payment-first__credit" data-i18n="contact_payment_credit">Si continúas con un programa, los <strong>USD 29,99</strong> de esta evaluación se <strong>descontarán del precio total</strong> del programa que contrates. Así no pagas dos veces por el mismo inicio de proceso.</p>
+                        <div class="contact-payment-notice" role="note" aria-live="polite">
+                            <p class="contact-payment-notice__title" data-i18n="contact_payment_notice_title"><strong>Cómo continúas</strong></p>
+                            <p class="contact-payment-notice__text" data-i18n="contact_payment_notice_text">Tras pagar en Stripe, serás redirigido a una página segura para completar la <strong>solicitud con tus datos</strong>. Sin ese paso previo no recibimos el formulario.</p>
                         </div>
-                        
-                        <div id="form-status" style="display: none; margin-bottom: 15px; padding: 10px; border-radius: 4px;"></div>
-
-                        <input type="hidden" name="_subject" value="Nueva solicitud de Elite Futbol">
-                        
-                        <input type="hidden" name="_next" value="gracias.html">
-                        
-                        <input type="text" name="_gotcha" style="display:none">
-                        
-                        <input type="hidden" name="_captcha" value="false">
-                        
-                        <input type="hidden" name="_template" value="table">
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email" data-i18n="contact_form_email">Email*</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="phone" data-i18n="contact_form_phone">Teléfono*</label>
-                                <input type="tel" id="phone" name="phone" required>
-                            </div>
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="nationality" data-i18n="contact_form_nationality">Nacionalidad*</label>
-                                <input type="text" id="nationality" name="nationality" required>
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="program" data-i18n="contact_form_program">Seleccionar Programa*</label>
-                            <select id="program" name="program" required>
-                                <option value="" data-i18n="program_select">Elegir un programa</option>
-                                <option value="1week" data-i18n="program_select_1week">1 Semana - Programa Master (€2.200)</option>
-                                <option value="15days" data-i18n="program_select_15days">15 Días - Programa Pro (€3.400)</option>
-                                <option value="1month" data-i18n="program_select_1month">1 Mes - Programa Élite (€5.300)</option>
-                                <option value="2months" data-i18n="program_select_2months">2 Meses - Programa Avanzado (€8.700)</option>
-                                <option value="3months" data-i18n="program_select_3months">3 Meses - Programa Superior (€11.300)</option>
-                                <option value="1year" data-i18n="program_select_1year">1 Año - Programa Premium (€25.500)</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="start-date" data-i18n="contact_form_start_date">Fecha Preferida de Inicio*</label>
-                            <input type="date" id="start-date" name="start-date" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="experience" data-i18n="contact_form_experience">Experiencia Futbolística*</label>
-                            <textarea id="experience" name="experience" rows="3" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-lg" data-i18n="contact_form_submit">Enviar Solicitud</button>
-                    </form>
+                        <a class="btn btn-lg contact-payment-first__cta" href="https://buy.stripe.com/14A6oGdkW3Ji26x4em33W01" data-i18n="contact_pay_cta">Pagar USD 29,99 y continuar</a>
+                        <p class="contact-payment-first__hint" data-i18n="contact_after_payment_hint">Pago seguro con Stripe; verás el resumen antes de confirmar.</p>
+                    </div>
                 </div>
                 
                 <div class="contact-info">
@@ -724,16 +689,35 @@
                             <p>+1 (786) 694-1287<br>+34 608 56 44 86<br>+1 (561) 829-7422</p>
                         </div>
                     </div>
-                    
-                    <div class="info-box">
-                        <h4 data-i18n="application_process_title">Proceso de Solicitud</h4>
-                        <ol>
-                            <li data-i18n="application_step1">Envía tu solicitud</li>
-                            <li data-i18n="application_step2">Evaluación inicial por nuestro equipo técnico</li>
-                            <li data-i18n="application_step3">Entrevista por video</li>
-                            <li data-i18n="application_step4">Confirmación de plaza</li>
-                            <li data-i18n="application_step5">Preparación del programa</li>
-                        </ol>
+                </div>
+            </div>
+
+            <div class="application-process" aria-label="Pasos del proceso de solicitud">
+                <h3 class="application-process__heading" data-i18n="application_process_title">Proceso de solicitud</h3>
+                <div class="application-process__track" role="list">
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">1</span>
+                        <p class="application-process__text" data-i18n="application_step1">Pago evaluación inicial (Stripe)</p>
+                    </div>
+                    <span class="application-process__arrow" aria-hidden="true"></span>
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">2</span>
+                        <p class="application-process__text" data-i18n="application_step2">Solicitud con tus datos</p>
+                    </div>
+                    <span class="application-process__arrow" aria-hidden="true"></span>
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">3</span>
+                        <p class="application-process__text" data-i18n="application_step3">Revisión del equipo</p>
+                    </div>
+                    <span class="application-process__arrow" aria-hidden="true"></span>
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">4</span>
+                        <p class="application-process__text" data-i18n="application_step4">Videollamada</p>
+                    </div>
+                    <span class="application-process__arrow" aria-hidden="true"></span>
+                    <div class="application-process__step" role="listitem">
+                        <span class="application-process__num" aria-hidden="true">5</span>
+                        <p class="application-process__text" data-i18n="application_step5">Plaza y siguiente paso</p>
                     </div>
                 </div>
             </div>
@@ -934,8 +918,6 @@
     <script src="translations.js"></script>
     <script src="script.js"></script>
     <script src="language-selector.js"></script>
-    <script src="form-validation.js"></script>
-    <script src="form-handler.js"></script>
     <script src="navbar-scroll.js"></script>
     
     <!-- Scroll to Top Button -->

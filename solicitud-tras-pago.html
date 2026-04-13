@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completa tu solicitud | Elite Futbol Scouting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tras el pago en Stripe, redirige aquí (ej.: https://elitefutbolscouting.com/solicitud-tras-pago.html) -->
+</head>
+<body class="page-no-header">
+    <section class="contact post-payment-page post-payment-page--verified" style="padding-top: 2.5rem;">
+        <div class="container container--post-payment">
+            <div class="section-header section-header--post-payment">
+                <div class="post-payment-brand">
+                    <img src="images/CD_Leganés-logo.png" alt="Escudo del CD Leganés" class="post-payment-brand__crest" width="72" height="72" loading="eager">
+                    <p class="post-payment-brand__name"><span class="post-payment-brand__gold">Elite</span> Futbol <span class="post-payment-brand__gold">Scouting</span></p>
+                </div>
+                <h2>Solicitud de programa</h2>
+                <p class="post-payment-lead">Stripe te ha traído aquí tras el pago de la evaluación inicial. Completa el formulario y el equipo te contactará.</p>
+            </div>
+
+            <div class="contact-wrapper post-payment-form-shell">
+                <div class="contact-form post-payment-form-main">
+                    <form id="application-form" action="https://formspree.io/f/xzzrbvwd" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre completo*</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="dob">Fecha de nacimiento*</label>
+                                <input type="date" id="dob" name="dob" required>
+                            </div>
+                        </div>
+
+                        <div id="form-status" style="display: none; margin-bottom: 15px; padding: 10px; border-radius: 4px;"></div>
+
+                        <input type="hidden" name="_subject" value="Nueva solicitud de Elite Futbol (post-pago)">
+                        <input type="hidden" name="_next" value="gracias.html">
+                        <input type="text" name="_gotcha" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono*</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nationality">Nacionalidad*</label>
+                                <input type="text" id="nationality" name="nationality" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="program">Seleccionar programa*</label>
+                            <select id="program" name="program" required>
+                                <option value="">Elegir un programa</option>
+                                <option value="1week">1 Semana - Programa Master (€2.200)</option>
+                                <option value="15days">15 Días - Programa Pro (€3.400)</option>
+                                <option value="1month">1 Mes - Programa Élite (€5.300)</option>
+                                <option value="2months">2 Meses - Programa Avanzado (€8.700)</option>
+                                <option value="3months">3 Meses - Programa Superior (€11.300)</option>
+                                <option value="1year">1 Año - Programa Premium (€25.500)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="start-date">Fecha preferida de inicio*</label>
+                            <input type="date" id="start-date" name="start-date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience">Experiencia futbolística*</label>
+                            <textarea id="experience" name="experience" rows="3" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg">Enviar solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer--post-payment">
+        <div class="container">
+            <div class="footer-bottom footer-bottom--post-payment">
+                <a href="index.html" class="footer-back-link">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                    <span>Volver a la web</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="form-handler.js"></script>
+    <script src="form-validation.js"></script>
+</body>
+</html>

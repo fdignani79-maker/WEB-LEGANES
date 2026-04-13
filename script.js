@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Header scroll effect
     const header = document.querySelector('header');
     function headerScroll() {
+        if (!header) return;
         if(window.scrollY > 50) {
             header.style.padding = '10px 0';
             header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
