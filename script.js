@@ -48,13 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('header');
     function headerScroll() {
         if (!header) return;
-        if(window.scrollY > 50) {
-            header.style.padding = '10px 0';
-            header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
-        } else {
-            header.style.padding = '15px 0';
-            header.style.boxShadow = 'none';
-        }
+        // Navbar visual is driven by CSS classes (see navbar-scroll.js + styles.css)
     }
     
     // Apply the functions on scroll

@@ -233,13 +233,14 @@ body > header.main-header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.98);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+    background: rgba(7, 20, 40, 0.35);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
     z-index: 1000;
     padding: 15px 0;
     transition: all 0.3s ease;
     transform: translateY(0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 body > header.main-header.hidden {
@@ -247,9 +248,9 @@ body > header.main-header.hidden {
 }
 
 body > header.main-header.scrolled {
-    background-color: rgba(255, 255, 255, 0.98);
-    backdrop-filter: blur(15px);
-    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.12);
+    background: rgba(7, 20, 40, 0.92);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 14px 38px rgba(0, 0, 0, 0.28);
     padding: 10px 0;
 }
 
@@ -270,7 +271,7 @@ body > header.main-header .logo-language-wrapper {
 .logo h1 {
     font-size: 2rem;
     margin: 0;
-    color: var(--primary-color);
+    color: rgba(255, 255, 255, 0.96);
     white-space: nowrap;
 }
 
@@ -283,7 +284,7 @@ body > header.main-header .logo-language-wrapper {
 .mobile-menu-toggle {
     display: none;
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: rgba(255, 255, 255, 0.92);
     cursor: pointer;
     z-index: 1001;
 }
@@ -303,7 +304,7 @@ nav ul li {
 
 nav ul li a {
     font-weight: 600;
-    color: var(--dark-color);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -327,14 +328,14 @@ nav ul li a.active:after {
 }
 
 nav ul li a.cta-button {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--secondary-color);
+    color: #0b1f3b;
     padding: 10px 20px;
     border-radius: 4px;
 }
 
 nav ul li a.cta-button:hover {
-    background-color: var(--secondary-color);
+    background-color: #f1c84b;
 }
 
 nav ul li a.cta-button:after {
@@ -355,7 +356,7 @@ nav ul li a.cta-button:after {
     padding: 4px 8px;
     margin-left: 8px;
     border-radius: 4px;
-    color: var(--dark-color);
+    color: rgba(255, 255, 255, 0.92);
     text-decoration: none;
     border: 1px solid transparent;
     transition: all 0.3s ease;
@@ -365,7 +366,7 @@ nav ul li a.cta-button:after {
 .language-option:hover, 
 .language-option.active {
     border-color: var(--secondary-color);
-    background-color: rgba(228, 181, 40, 0.1);
+    background-color: rgba(255, 255, 255, 0.08);
 }
 
 .flag-icon {
@@ -441,12 +442,13 @@ nav ul li a.cta-button:after {
         width: 80%;
         max-width: 300px;
         height: 100vh;
-        background: white;
+        background: linear-gradient(135deg, #071428 0%, #0d1f4a 45%, #0a1830 100%);
         padding: 80px 20px 20px;
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
         transition: all 0.4s ease;
         overflow-y: auto;
         z-index: 1000;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     .main-nav.active {
@@ -479,29 +481,29 @@ nav ul li a.cta-button:after {
         display: block;
         padding: 8px 0;
         font-size: 1.1rem;
-        color: var(--dark-color);
+        color: rgba(255, 255, 255, 0.92);
     }
     
     .main-nav ul li a.active {
-        color: var(--primary-color);
+        color: var(--secondary-color);
         font-weight: 600;
     }
     
     .main-nav ul li a:hover {
-        color: var(--primary-color);
+        color: var(--secondary-color);
     }
     
     .main-nav ul li a.cta-button {
         display: inline-block;
         margin-top: 10px;
         text-align: center;
-        background-color: var(--primary-color);
-        color: white !important;
+        background-color: var(--secondary-color);
+        color: #0b1f3b !important;
     }
     
     .main-nav ul li a.cta-button:hover {
-        background-color: var(--secondary-color);
-        color: var(--dark-color) !important;
+        background-color: #f1c84b;
+        color: #081a35 !important;
     }
     
     /* Animación para el icono hamburguesa */
@@ -901,16 +903,18 @@ nav ul li a.cta-button:after {
 }
 
 .work__cta .btn--ghost {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.35);
-    color: #fff;
+    background: var(--secondary-color);
+    border: 1px solid rgba(228, 181, 40, 0.75);
+    color: #0b1f3b;
+    box-shadow: 0 10px 24px rgba(228, 181, 40, 0.22);
 }
 
 .work__cta .btn--ghost:hover {
     transform: translateY(-2px);
-    border-color: rgba(228, 181, 40, 0.55);
-    background: rgba(255, 255, 255, 0.14);
-    color: #fff;
+    border-color: rgba(241, 200, 75, 0.95);
+    background: #f1c84b;
+    color: #081a35;
+    box-shadow: 0 14px 30px rgba(228, 181, 40, 0.28);
 }
 
 .work__trust {
@@ -1621,14 +1625,17 @@ nav ul li a.cta-button:after {
 }
 
 .programs .program-card .btn {
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    color: #fff;
+    background: var(--secondary-color);
+    border: 1px solid rgba(228, 181, 40, 0.75);
+    color: #0b1f3b;
+    box-shadow: 0 10px 24px rgba(228, 181, 40, 0.22);
 }
 
 .programs .program-card .btn:hover {
-    background: rgba(255, 255, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.6);
+    background: #f1c84b;
+    border-color: rgba(241, 200, 75, 0.95);
+    color: #081a35;
+    box-shadow: 0 14px 30px rgba(228, 181, 40, 0.28);
 }
 
 /* Short-term: el ul crece y empuja precio+notas abajo; solo el botón tiene margin-top: auto */
