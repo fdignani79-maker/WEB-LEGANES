@@ -688,6 +688,14 @@ nav ul li a.cta-button:after {
     margin: 12px auto 10px;
 }
 
+@media (max-width: 576px) {
+    .hero--video .hero-video {
+        width: min(420px, 100%);
+        margin: 10px auto 10px;
+        border-radius: 16px;
+    }
+}
+
 .hero--video .hero-cta-meeting {
     margin-top: 8px;
     padding: 12px 22px;
