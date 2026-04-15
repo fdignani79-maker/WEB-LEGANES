@@ -2214,7 +2214,7 @@ nav ul li a.cta-button:after {
 .about-image {
     position: relative;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 620px;
 }
 
 .about-image img {
@@ -3370,6 +3370,10 @@ footer ul li a:hover {
     
     .about-image {
         padding: 0 15px;
+    }
+
+    .about-image {
+        max-width: 520px;
     }
     
     .why-us,
