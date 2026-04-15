@@ -680,7 +680,7 @@ nav ul li a.cta-button:after {
 
 /* Hero video: compacto para ver todo sin scroll */
 .hero--video .hero-content {
-    padding: 34px 0 44px;
+    padding: 44px 0 44px;
 }
 
 .hero--video .hero-video {
@@ -693,6 +693,11 @@ nav ul li a.cta-button:after {
         width: min(420px, 100%);
         margin: 10px auto 10px;
         border-radius: 16px;
+    }
+
+    /* Más aire entre navbar fijo y título en mobile */
+    .hero--video .hero-content {
+        padding-top: 56px;
     }
 }
 
