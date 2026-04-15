@@ -1090,12 +1090,39 @@ nav ul li a.cta-button:after {
         padding: 48px 0;
     }
 
+    .work__left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .work__eyebrow {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .work__title {
         font-size: clamp(1.5rem, 6vw, 2rem);
     }
 
     .work__lead {
         font-size: 0.9375rem;
+    }
+
+    .work__lead,
+    .work__text,
+    .work__text p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .work__process-lead {
+        text-align: center;
+    }
+
+    .work__process-lead::after {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .work__right .work__features li {
@@ -1108,6 +1135,31 @@ nav ul li a.cta-button:after {
 
     .work__cta .btn {
         width: 100%;
+    }
+}
+
+@media (max-width: 620px) {
+    /* Contact: centrar bloque y CTA principal en mobile */
+    .contact .section-header {
+        text-align: center;
+    }
+
+    .contact-payment-first {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .contact-payment-first__hint,
+    .contact-payment-first__credit,
+    .contact-payment-notice {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .contact-payment-first__cta {
+        max-width: 100%;
     }
 }
 
