@@ -45,21 +45,22 @@
         </div>
     </header>
 
-    <section id="home" class="hero" style="background-image: url('images/stadium-background-new.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+    <section id="home" class="hero hero--video">
         <div class="overlay"></div>
         <div class="container">
             <div class="hero-content">
                 <h2 data-i18n="hero_title">Tu Camino al Fútbol Profesional Comienza Aquí</h2>
                 <p data-i18n="hero_subtitle">Programas de entrenamiento de élite en CD Leganés en Madrid, España</p>
-                <div class="hero-buttons">
-                    <!-- <a href="#tryout-camp" class="btn btn-hero-camp" data-i18n="hero_btn_miami_camp">Miami Camp 2026</a> -->
-                    <a href="#programs" class="btn btn-primary" data-i18n="hero_btn_explore">Explorar Programas</a>
-                    <a href="#contact" class="btn btn-secondary" data-i18n="hero_btn_apply">Solicitar Ahora</a>
+                <div class="hero-video" aria-label="Video principal">
+                    <iframe
+                        src="https://player.vimeo.com/video/1183365224?badge=0&autopause=0&player_id=0&app_id=58479"
+                        title="Elite Futbol Scouting"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
                 </div>
-            </div>
-            <div class="scroll-indicator">
-                <span data-i18n="hero_scroll_indicator">Desliza</span>
-                <i class="fas fa-chevron-down"></i>
+                <a href="#contact" class="btn hero-cta-meeting" data-i18n="hero_cta_meeting">Solicitar reunión</a>
             </div>
         </div>
     </section>
@@ -113,15 +114,8 @@
 
                 <aside class="work__right">
                     <div class="work__media">
-                        <div class="work__video" aria-label="Video: Entorno profesional">
-                            <iframe
-                                src="https://player.vimeo.com/video/1183365224?badge=0&autopause=0&player_id=0&app_id=58479"
-                                title="Entorno profesional"
-                                frameborder="0"
-                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen></iframe>
-                        </div>
+                        <img src="images/foto-facha-caminando.JPG" alt="Entrenamiento en entorno profesional en España" loading="lazy">
+                        <div class="work__overlay" aria-hidden="true"></div>
                     </div>
 
                     <ul class="work__features">
@@ -132,7 +126,7 @@
 
                     <div class="work__cta">
                         <a href="#programs" class="btn btn--primary" data-i18n="whatwe_cta_programs">Ver programas</a>
-                        <a href="#contact" class="btn btn--ghost" data-i18n="whatwe_cta_meeting">Solicitar mi reunión</a>
+                        <a href="#about" class="btn btn--ghost" data-i18n="whatwe_cta_meeting">Conócenos</a>
                     </div>
                 </aside>
             </div>

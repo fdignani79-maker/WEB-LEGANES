@@ -20,6 +20,7 @@ const translations = {
         'hero_btn_miami_camp': 'Miami Camp 2026',
         'hero_btn_explore': 'Explorar Programas',
         'hero_btn_apply': 'Solicitar Ahora',
+        'hero_cta_meeting': 'Solicitar reunión',
         'hero_scroll_indicator': 'Desliza',
         
         // Trust Bar
@@ -35,7 +36,7 @@ const translations = {
         'whatwe_bullet4': 'Orientación clara para próximos pasos (programas y pathway)',
         'whatwe_cta_programs': 'Ver programas',
         'whatwe_cta_apply': 'Solicitar evaluación',
-        'whatwe_cta_meeting': 'Solicitar mi reunión',
+        'whatwe_cta_meeting': 'Conócenos',
         'whatwe_badge_title': 'Entorno profesional',
         'whatwe_badge_text': 'España • Club experience',
         'whatwe_card1_title': 'Entrenamiento profesional',
@@ -384,6 +385,7 @@ const translations = {
         'hero_btn_miami_camp': 'Miami Camp 2026',
         'hero_btn_explore': 'Explore Programs',
         'hero_btn_apply': 'Apply Now',
+        'hero_cta_meeting': 'Request a meeting',
         'hero_scroll_indicator': 'Scroll Down',
         
         // Trust Bar
@@ -399,7 +401,7 @@ const translations = {
         'whatwe_bullet4': 'Clear guidance for next steps (programs and pathway)',
         'whatwe_cta_programs': 'View programs',
         'whatwe_cta_apply': 'Request evaluation',
-        'whatwe_cta_meeting': 'Request my meeting',
+        'whatwe_cta_meeting': 'Meet us',
         'whatwe_badge_title': 'Professional environment',
         'whatwe_badge_text': 'Spain • Club experience',
         'whatwe_card1_title': 'Professional training',

@@ -580,9 +580,64 @@ nav ul li a.cta-button:after {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 80px;
+    padding: 52px 0 72px;
     width: 100%;
     box-sizing: border-box;
+}
+
+.hero--video {
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    margin-top: -100px;
+    padding-top: 100px;
+    background: url('images/stadium-background-new.jpg') no-repeat center center/cover;
+}
+
+.hero--video .overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
+}
+
+.hero-video {
+    position: relative;
+    width: min(620px, 100%);
+    margin: 16px auto 12px;
+    border-radius: 18px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: #000;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+
+.hero-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.hero-cta-meeting {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px auto 0;
+    background: var(--secondary-color);
+    border: 1px solid rgba(228, 181, 40, 0.75);
+    color: #0b1f3b;
+    box-shadow: 0 14px 34px rgba(228, 181, 40, 0.22);
+    padding: 14px 28px;
+    border-radius: 999px;
+}
+
+.hero-cta-meeting:hover {
+    background: #f1c84b;
+    border-color: rgba(241, 200, 75, 0.95);
+    color: #081a35;
+    box-shadow: 0 18px 40px rgba(228, 181, 40, 0.28);
+    transform: translateY(-2px);
 }
 
 .hero-content h2 {
@@ -599,6 +654,58 @@ nav ul li a.cta-button:after {
     margin-bottom: 40px;
     text-shadow: 0 2px 15px rgba(0, 0, 0, 0.8), 0 1px 5px rgba(0, 0, 0, 0.6);
     animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+/* Hero: look premium (título + subtítulo) */
+.hero--video .hero-content h2 {
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    text-shadow: 0 10px 34px rgba(0, 0, 0, 0.55);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.98), rgba(228, 181, 40, 0.92));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: clamp(2rem, 4.2vw, 3.1rem);
+}
+
+.hero--video .hero-content p {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+    color: rgba(255, 255, 255, 0.88);
+    text-shadow: 0 8px 26px rgba(0, 0, 0, 0.45);
+}
+
+/* Hero video: compacto para ver todo sin scroll */
+.hero--video .hero-content {
+    padding: 34px 0 44px;
+}
+
+.hero--video .hero-video {
+    width: min(560px, 100%);
+    margin: 12px auto 10px;
+}
+
+.hero--video .hero-cta-meeting {
+    margin-top: 8px;
+    padding: 12px 22px;
+}
+
+@media (max-height: 780px) {
+    .hero--video .hero-content {
+        padding: 26px 0 34px;
+    }
+
+    .hero--video .hero-video {
+        width: min(520px, 100%);
+    }
+}
+
+.hero--video .hero-content p strong {
+    color: var(--secondary-color);
+    font-weight: 700;
 }
 
 .hero-buttons {
@@ -670,8 +777,11 @@ nav ul li a.cta-button:after {
 }
 
 .work__container {
-    width: min(1140px, 92%);
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .work__grid {
@@ -784,6 +894,13 @@ nav ul li a.cta-button:after {
         0 24px 56px rgba(0, 0, 0, 0.28),
         inset 0 1px 0 rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.92);
+}
+
+/* Alineación visual: bajar bloque derecho en desktop */
+@media (min-width: 981px) {
+    .work__right {
+        margin-top: 16px;
+    }
 }
 
 .work__media {
@@ -1088,6 +1205,10 @@ nav ul li a.cta-button:after {
 @media (max-width: 620px) {
     .work {
         padding: 48px 0;
+    }
+
+    .work__container {
+        padding: 0 15px;
     }
 
     .work__left {
@@ -2971,7 +3092,7 @@ footer ul li a:hover {
         padding-bottom: 80px;
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 30px;
+        padding-top: 44px;
         width: 100%;
     }
     
