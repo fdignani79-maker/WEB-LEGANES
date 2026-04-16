@@ -672,7 +672,7 @@ nav ul li a.cta-button:after {
     max-width: 48rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
     font-size: clamp(1.05rem, 2.2vw, 1.35rem);
     color: rgba(255, 255, 255, 0.88);
     text-shadow: 0 8px 26px rgba(0, 0, 0, 0.45);
@@ -685,24 +685,38 @@ nav ul li a.cta-button:after {
 
 .hero--video .hero-video {
     width: min(560px, 100%);
-    margin: 12px auto 10px;
+    margin: 16px auto 18px;
 }
 
 @media (max-width: 576px) {
     .hero--video .hero-video {
         width: min(420px, 100%);
-        margin: 10px auto 10px;
+        margin: 18px auto 16px;
         border-radius: 16px;
     }
 
     /* Más aire entre navbar fijo y título en mobile */
     .hero--video .hero-content {
-        padding-top: 56px;
+        padding-top: 72px;
+        padding-bottom: 68px;
+    }
+
+    .hero--video .hero-content h2 {
+        margin-bottom: 18px;
+    }
+
+    .hero--video .hero-content p {
+        margin-bottom: 24px;
+        line-height: 1.55;
+    }
+
+    .hero--video .hero-cta-meeting {
+        margin-top: 12px;
     }
 }
 
 .hero--video .hero-cta-meeting {
-    margin-top: 8px;
+    margin-top: 18px;
     padding: 12px 22px;
 }
 
