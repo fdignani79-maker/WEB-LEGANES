@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Marcar el formulario como validado
         this.setAttribute('data-validated', 'true');
         
-        // No prevenir el envío del formulario aquí, para permitir que form-handler.js lo procese
+        // No prevenir el envío del formulario aquí; el manejo depende de la integración activa (p.ej. redirección/externo)
     });
 
     // Traducciones para los mensajes de error según el idioma actual
