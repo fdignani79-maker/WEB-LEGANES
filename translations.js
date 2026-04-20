@@ -270,7 +270,7 @@ const translations = {
         'application_process_title': 'Proceso de solicitud',
         'application_step1': 'Completar formulario',
         'application_step2': 'Revisión del equipo',
-        'application_step3': 'Revisión del equipo',
+        'application_step3': 'Contacto',
         'application_step4': 'Videollamada',
         'application_step5': 'Plaza y siguiente paso',
         
@@ -635,7 +635,7 @@ const translations = {
         'application_process_title': 'Application process',
         'application_step1': 'Complete form',
         'application_step2': 'Team review',
-        'application_step3': 'Team review',
+        'application_step3': 'Contact',
         'application_step4': 'Video call',
         'application_step5': 'Place & next steps',
         
