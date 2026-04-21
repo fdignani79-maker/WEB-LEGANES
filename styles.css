@@ -2800,8 +2800,8 @@ nav ul li a.cta-button:after {
 /* CTA Section */
 .cta {
     padding: 100px 0;
-    background: linear-gradient(135deg, rgba(26, 58, 126, 0.95), rgba(34, 40, 49, 0.95)), url('images/stadium-background-new.jpg') no-repeat center center/cover;
-    background-attachment: fixed;
+    background: url('images/estadio-cd-leganes.jpg') no-repeat center center/cover;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2827,7 +2827,7 @@ nav ul li a.cta-button:after {
     right: 0;
     bottom: 0;
     background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
-    opacity: 0.9;
+    opacity: 0.58;
     z-index: 1;
 }
 
