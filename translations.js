@@ -201,7 +201,7 @@ const translations = {
         
         // Testimonios
         'testimonials_title': 'Jugadores que ya iniciaron su camino',
-        'testimonials_subtitle': 'Una mirada a su etapa con nosotros en el CD Leganés, con confianza en cada etapa del camino.',
+        'testimonials_subtitle': 'Una mirada a su etapa con nosotros en el CD Leganés, con confianza en cada parte del proceso.',
         'testimonial1_text': '"Elite Futbol cambió la trayectoria de mi carrera. Después del programa de un mes, me ofrecieron una prueba con un club de Segunda División B y ahora estoy jugando profesionalmente en España. El entrenamiento y la exposición fueron invaluables."',
         'testimonial1_name': 'Carlos M.',
         'testimonial2_text': '"El programa de 15 días en CD Leganés me abrió puertas que nunca pensé posibles. El desarrollo técnico y las conexiones profesionales me ayudaron a asegurar un lugar en una academia de primer nivel en Europa."',
@@ -566,7 +566,7 @@ const translations = {
         
         // Testimonials
         'testimonials_title': 'Players who have already started their journey',
-        'testimonials_subtitle': 'A glimpse of their time with us at CD Leganés, with trust at every stage of the journey.',
+        'testimonials_subtitle': 'A glimpse of their time with us at CD Leganés, with trust in every part of the process.',
         'testimonial1_text': '"Elite Soccer changed the trajectory of my career. After the one-month program, I was offered a trial with a Segunda División B club and am now playing professionally in Spain. The training and exposure were invaluable."',
         'testimonial1_name': 'Carlos M.',
         'testimonial2_text': '"The 15-day program at CD Leganés opened doors I never thought possible. The technical development and professional connections helped me secure a place at a top-tier academy in Europe."',
