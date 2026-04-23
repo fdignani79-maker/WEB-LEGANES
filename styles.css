@@ -2285,6 +2285,125 @@ nav ul li a.cta-button:after {
     color: rgba(255, 255, 255, 0.9);
 }
 
+/* Carrusel: jugadores en CD Leganés */
+.testimonials--journey .journey-carousel {
+    position: relative;
+    max-width: 520px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.journey-carousel__viewport {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(0, 0, 0, 0.25);
+    transition: height 0.35s ease;
+}
+
+.journey-carousel__track {
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    will-change: transform;
+}
+
+.journey-carousel__slide {
+    flex: 0 0 100%;
+    margin: 0;
+    min-width: 0;
+    align-self: flex-start;
+}
+
+.journey-carousel__slide img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: min(72vh, 640px);
+}
+
+.journey-carousel__btn {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.journey-carousel__btn:hover,
+.journey-carousel__btn:focus-visible {
+    background: rgba(228, 181, 40, 0.25);
+    border-color: var(--secondary-color);
+    color: #fff;
+    outline: none;
+}
+
+.journey-carousel__btn:active {
+    transform: scale(0.96);
+}
+
+.journey-carousel__dots {
+    position: absolute;
+    left: 50%;
+    bottom: 14px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 2;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+}
+
+.journey-carousel__dots button {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.45);
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.journey-carousel__dots button.is-active {
+    background: var(--secondary-color);
+    transform: scale(1.15);
+}
+
+@media (max-width: 620px) {
+    .testimonials--journey .journey-carousel {
+        gap: 6px;
+        max-width: 100%;
+    }
+
+    .journey-carousel__btn {
+        width: 40px;
+        height: 40px;
+        font-size: 0.85rem;
+    }
+
+    .journey-carousel__slide img {
+        max-height: min(65vh, 520px);
+    }
+}
+
 .testimonial-slider {
     display: flex;
     flex-wrap: wrap;

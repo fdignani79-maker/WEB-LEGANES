@@ -10,7 +10,7 @@ const translations = {
         'nav_camp_register': 'Quiero registrarme',
         'nav_programs': 'Programas',
         'nav_about': 'Nosotros',
-        'nav_testimonials': 'Testimonios',
+        'nav_testimonials': 'Jugadores',
         'nav_facilities': 'Instalaciones',
         'nav_contact': 'Solicitar',
         
@@ -200,8 +200,8 @@ const translations = {
         'about_facilities_btn': 'Conoce Nuestras Instalaciones',
         
         // Testimonios
-        'testimonials_title': 'Casos de Éxito',
-        'testimonials_subtitle': 'Escucha a jugadores que aprovecharon su oportunidad con Elite Futbol',
+        'testimonials_title': 'Jugadores que ya iniciaron su camino',
+        'testimonials_subtitle': 'Una mirada a su etapa con nosotros en el CD Leganés, con confianza en cada etapa del camino.',
         'testimonial1_text': '"Elite Futbol cambió la trayectoria de mi carrera. Después del programa de un mes, me ofrecieron una prueba con un club de Segunda División B y ahora estoy jugando profesionalmente en España. El entrenamiento y la exposición fueron invaluables."',
         'testimonial1_name': 'Carlos M.',
         'testimonial2_text': '"El programa de 15 días en CD Leganés me abrió puertas que nunca pensé posibles. El desarrollo técnico y las conexiones profesionales me ayudaron a asegurar un lugar en una academia de primer nivel en Europa."',
@@ -285,7 +285,7 @@ const translations = {
         'footer_link_home': 'Inicio',
         'footer_link_programs': 'Programas',
         'footer_link_about': 'Nosotros',
-        'footer_link_testimonials': 'Testimonios',
+        'footer_link_testimonials': 'Jugadores',
         'footer_link_facilities': 'Instalaciones',
         'footer_link_contact': 'Solicitar Ahora',
         'footer_programs_title': 'Nuestros Programas',
@@ -375,7 +375,7 @@ const translations = {
         'nav_camp_register': 'I want to register',
         'nav_programs': 'Programs',
         'nav_about': 'About Us',
-        'nav_testimonials': 'Testimonials',
+        'nav_testimonials': 'Players',
         'nav_facilities': 'Facilities',
         'nav_contact': 'Apply',
         
@@ -565,8 +565,8 @@ const translations = {
         'about_facilities_btn': 'Discover Our Facilities',
         
         // Testimonials
-        'testimonials_title': 'Success Stories',
-        'testimonials_subtitle': 'Hear from players who took their chance with Elite Soccer',
+        'testimonials_title': 'Players who have already started their journey',
+        'testimonials_subtitle': 'A glimpse of their time with us at CD Leganés, with trust at every stage of the journey.',
         'testimonial1_text': '"Elite Soccer changed the trajectory of my career. After the one-month program, I was offered a trial with a Segunda División B club and am now playing professionally in Spain. The training and exposure were invaluable."',
         'testimonial1_name': 'Carlos M.',
         'testimonial2_text': '"The 15-day program at CD Leganés opened doors I never thought possible. The technical development and professional connections helped me secure a place at a top-tier academy in Europe."',
@@ -650,7 +650,7 @@ const translations = {
         'footer_link_home': 'Home',
         'footer_link_programs': 'Programs',
         'footer_link_about': 'About Us',
-        'footer_link_testimonials': 'Testimonials',
+        'footer_link_testimonials': 'Players',
         'footer_link_facilities': 'Facilities',
         'footer_link_contact': 'Apply Now',
         'footer_programs_title': 'Our Programs',
