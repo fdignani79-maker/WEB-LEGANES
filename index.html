@@ -13,8 +13,8 @@
 <meta property="og:url" content="https://elitefutbolscouting.com/">
 <!-- REEMPLAZAR: imagen OG con foto nueva del hero (Fernando con balón en Butarque) -->
 <meta property="og:image" content="images/estadio-cd-leganes.jpg">
-<!-- ============ FAVICON (reemplazar por el del nuevo logo oficial) ============ -->
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 2 58 12v20c0 16-11 26-26 30C17 58 6 48 6 32V12Z' fill='%23170A94'/%3E%3Cpath d='M32 8 52 16v16c0 12-8.5 20-20 23.5C20.5 52 12 44 12 32V16Z' fill='none' stroke='%23F2B84B' stroke-width='3'/%3E%3Ctext x='32' y='40' font-family='Arial Black' font-size='20' fill='%23F2B84B' text-anchor='middle' font-weight='bold'%3EEFS%3C/text%3E%3C/svg%3E">
+<!-- ============ FAVICON: logo oficial ============ -->
+<link rel="icon" type="image/png" href="images/logo-efs.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;0,700;1,600;1,700&family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -62,7 +62,7 @@ h1,h2,h3,.display{font-family:var(--display);font-style:italic;font-weight:700;t
 .nav.scrolled{background:rgba(23,10,148,.92);backdrop-filter:blur(14px);box-shadow:0 6px 24px rgba(0,0,0,.25);padding:10px 0}
 .nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
 .logo{display:flex;align-items:center;gap:12px;color:var(--white);flex:none;white-space:nowrap}
-.logo-badge{width:44px;height:44px;flex:none}
+.logo-badge{width:auto;height:52px;flex:none;filter:drop-shadow(0 2px 6px rgba(0,0,0,.35))}
 .logo-name{display:block;font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.04em;line-height:1;text-transform:uppercase}
 .logo-name span{color:var(--gold-2)}
 .logo-sub{display:block;margin-top:3px;font-size:10px;letter-spacing:.3em;color:#b9c2d8;text-transform:uppercase;line-height:1}
@@ -291,7 +291,7 @@ footer{background:#0d0666;color:#aab4cc;padding:70px 0 0}
   <div class="wrap">
     <a class="logo" href="#home">
       <!-- REEMPLAZAR: nuevo logo oficial de Elite Fútbol Scouting -->
-      <svg class="logo-badge" viewBox="0 0 64 64"><path d="M32 2 58 12v20c0 16-11 26-26 30C17 58 6 48 6 32V12Z" fill="#170a94"/><path d="M32 8 52 16v16c0 12-8.5 20-20 23.5C20.5 52 12 44 12 32V16Z" fill="none" stroke="#f2b84b" stroke-width="3"/><text x="32" y="40" font-family="Arial Black" font-size="17" fill="#f2b84b" text-anchor="middle" font-weight="bold">EFS</text></svg>
+      <img class="logo-badge" src="images/logo-efs.png" alt="Elite Fútbol Scouting">
       <span>
         <span class="logo-name">Elite <span>Fútbol</span> Scouting</span>
         <span class="logo-sub" data-i18n="nav.sub">Desarrollo Internacional</span>
@@ -804,7 +804,7 @@ footer{background:#0d0666;color:#aab4cc;padding:70px 0 0}
     <div class="f-grid">
       <div>
         <a class="logo" href="#home">
-          <svg class="logo-badge" viewBox="0 0 64 64"><path d="M32 2 58 12v20c0 16-11 26-26 30C17 58 6 48 6 32V12Z" fill="#170a94"/><path d="M32 8 52 16v16c0 12-8.5 20-20 23.5C20.5 52 12 44 12 32V16Z" fill="none" stroke="#f2b84b" stroke-width="3"/><text x="32" y="40" font-family="Arial Black" font-size="17" fill="#f2b84b" text-anchor="middle" font-weight="bold">EFS</text></svg>
+          <img class="logo-badge" src="images/logo-efs.png" alt="Elite Fútbol Scouting">
           <span><span class="logo-name">Elite <span>Fútbol</span> Scouting</span></span>
         </a>
         <p class="f-desc" data-i18n="foot.desc">Programas Internacionales de Desarrollo para Futbolistas en España.</p>
