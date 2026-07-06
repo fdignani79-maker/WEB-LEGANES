@@ -117,7 +117,7 @@ h1,h2,h3,.display{font-family:var(--display);font-style:italic;font-weight:700;t
 .club-card .tag{display:inline-block;margin-top:10px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-2);border:1px solid rgba(242,184,75,.4);padding:5px 14px;border-radius:999px}
 .club-card p{margin-top:14px;font-size:14px;color:#b9c2d8}
 .club-future{border-style:dashed;border-color:rgba(242,184,75,.4)}
-.club-future .plus{width:110px;height:110px;margin:0 auto 20px;border-radius:50%;border:2px dashed var(--gold);display:flex;align-items:center;justify-content:center;font-size:44px;color:var(--gold-2)}
+.club-card .plus{width:110px;height:110px;margin:0 auto 20px;border-radius:50%;border:2px dashed var(--gold);display:flex;align-items:center;justify-content:center;font-size:44px;color:var(--gold-2)}
 .clubs-quote{margin-top:64px;text-align:center;font-family:var(--display);font-style:italic;font-weight:700;font-size:clamp(30px,4.2vw,48px);color:var(--gold-2);max-width:1000px;margin-left:auto;margin-right:auto;line-height:1.2;text-transform:uppercase}
 
 /* ---------- about / what is EFS ---------- */
@@ -282,6 +282,14 @@ footer{background:#0d0666;color:#aab4cc;padding:70px 0 0}
 @media(max-width:560px){
   .f-grid{grid-template-columns:1fr}
   .prog-premium{padding:36px 24px}
+  .nav .wrap{gap:8px;padding:0 14px}
+  .logo{gap:8px}
+  .logo-badge{height:36px}
+  .logo-name{font-size:15px;letter-spacing:.02em}
+  .logo-sub{display:none}
+  .lang button{padding:4px 8px;font-size:11px}
+  .burger{width:34px;flex:none}
+  .burger span{width:24px}
 }
 </style>
 </head>
@@ -358,11 +366,10 @@ footer{background:#0d0666;color:#aab4cc;padding:70px 0 0}
         <p data-i18n="clubs.c1">Club histórico del fútbol profesional español, con instalaciones de primer nivel en el Estadio Municipal de Butarque.</p>
       </div>
       <div class="club-card reveal">
-        <!-- REEMPLAZAR: escudo oficial del Real Racing Club de Santander -->
-        <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Racing_de_Santander_logo.svg" alt="Racing de Santander">
-        <h3>Racing de Santander</h3>
-        <div class="tag">Cantabria</div>
-        <p data-i18n="clubs.c2">Uno de los clubes más tradicionales de España, con más de un siglo de historia y una reconocida cantera formativa.</p>
+        <div class="plus" aria-hidden="true">+</div>
+        <h3 data-i18n="clubs.c3t">Próximamente</h3>
+        <div class="tag" data-i18n="clubs.c3tag">Nuevos destinos</div>
+        <p data-i18n="clubs.c3">Nuestra red sigue creciendo con nuevos clubes colaboradores en España para ampliar las oportunidades de desarrollo.</p>
       </div>
       <div class="club-card club-future reveal">
         <div class="plus">+</div>
