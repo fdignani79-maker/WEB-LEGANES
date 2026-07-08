@@ -130,7 +130,8 @@ h1,h2,h3,.display{font-family:var(--display);font-style:italic;font-weight:700;t
 .check .ic{flex:none;width:26px;height:26px;border-radius:50%;background:linear-gradient(120deg,var(--gold),var(--gold-2));color:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;margin-top:2px}
 
 /* ---------- why us ---------- */
-.why-grid{grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:52px}
+.why-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:26px;margin-top:52px}
+.why-grid .why-card{flex:0 1 calc((100% - 52px)/3);min-width:250px}
 .why-card{background:var(--white);border-radius:var(--radius);padding:36px 28px;box-shadow:0 10px 34px rgba(23,10,148,.08);border-top:4px solid var(--gold);transition:.3s}
 .why-card:hover{transform:translateY(-8px);box-shadow:var(--shadow)}
 .why-card .ic{width:60px;height:60px;border-radius:16px;background:linear-gradient(140deg,var(--navy),var(--navy-3));color:var(--gold-2);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
@@ -178,7 +179,7 @@ h1,h2,h3,.display{font-family:var(--display);font-style:italic;font-weight:700;t
 .prog-premium .req strong{color:var(--gold-2)}
 
 /* ---------- director ---------- */
-.dir-grid{grid-template-columns:.9fr 1.1fr;align-items:center}
+.dir-grid{grid-template-columns:.9fr 1.1fr;align-items:start}
 .dir-img{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
 .dir-img img{width:100%;height:560px;object-fit:cover;object-position:center 20%}
 .dir-img .badge{position:absolute;left:20px;bottom:20px;background:linear-gradient(120deg,var(--gold),var(--gold-2));color:var(--navy);font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.1em;padding:10px 20px;border-radius:12px;font-size:15px}
@@ -398,7 +399,7 @@ footer{background:#0d0666;color:#aab4cc;padding:70px 0 0}
         <div style="margin-top:32px"><a href="#programas" class="btn btn-navy" data-i18n="about.b">Descubrir Nuestros Programas</a></div>
       </div>
       <div class="about-img reveal">
-        <img src="images/fernando-leganes.jpg" alt="Fernando Dignani frente al cartel del CD Leganés">
+        <img src="images/fernando-leganes.jpg" alt="Fernando Dignani frente al cartel del CD Leganés" style="object-position:12% 30%">
         <div class="frame"></div>
       </div>
     </div>
