@@ -821,30 +821,12 @@ footer{background:#0d0666;color:#aab4cc;padding:70px 0 0}
           <div><div class="l" data-i18n="con.loc">Ubicación</div><div class="v">Madrid, España</div></div>
         </div>
       </div>
-      <form class="form reveal" id="contactForm">
+      <div class="form reveal">
         <h3 data-i18n="con.ft">Formulario de solicitud</h3>
         <p data-i18n="con.fp">Datos básicos: te responderemos a la brevedad.</p>
-        <div class="f-row">
-          <input type="text" id="fNombre" required data-i18n-ph="con.f1" placeholder="Nombre y apellido">
-          <input type="text" id="fPais" required data-i18n-ph="con.f2" placeholder="País">
-        </div>
-        <div class="f-row">
-          <input type="number" id="fEdad" min="10" max="30" required data-i18n-ph="con.f3" placeholder="Edad">
-          <input type="text" id="fPosicion" data-i18n-ph="con.f4" placeholder="Posición">
-        </div>
-        <select id="fPrograma">
-          <option value="" data-i18n="con.f5">Programa de interés</option>
-          <option data-i18n="con.f5a">Master · 1 semana</option>
-          <option data-i18n="con.f5b">Pro · 15 días</option>
-          <option data-i18n="con.f5c">Élite · 1 mes</option>
-          <option data-i18n="con.f5d">Avanzado · 2 meses</option>
-          <option data-i18n="con.f5e">Superior · 3 meses</option>
-          <option data-i18n="con.f5f">Premium · 1 año</option>
-        </select>
-        <textarea id="fMsg" data-i18n-ph="con.f6" placeholder="Contanos brevemente sobre tu experiencia futbolística"></textarea>
-        <button type="submit" class="btn btn-gold" data-i18n="con.fb">Enviar Solicitud</button>
+        <iframe data-tally-src="https://tally.so/embed/Pd21M0?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="420" frameborder="0" marginheight="0" marginwidth="0" title="Elite Futbol Scouting"></iframe>
         <span class="alt-link" data-i18n-html="con.falt">O si preferís, escribinos por <a href="https://wa.me/34608564486" target="_blank" rel="noopener">WhatsApp</a></span>
-      </form>
+      </div>
     </div>
   </div>
 </section>
@@ -953,16 +935,8 @@ document.querySelectorAll('.t-tab').forEach(tab=>tab.addEventListener('click',()
   });
 }));
 
-/* ================= FORM → EMAIL ================= */
-document.getElementById('contactForm').addEventListener('submit',e=>{
-  e.preventDefault();
-  const v=id=>document.getElementById(id).value.trim();
-  const es=currentLang==='es';
-  const subject=(es?'Solicitud de programa · ':'Program request · ')+v('fNombre');
-  const msg=(es?'Hola, quiero solicitar información sobre los programas de Elite Fútbol Scouting.':'Hello, I would like to request information about Elite Fútbol Scouting programs.')+
-    `\n\n${es?'Nombre':'Name'}: ${v('fNombre')}\n${es?'País':'Country'}: ${v('fPais')}\n${es?'Edad':'Age'}: ${v('fEdad')}\n${es?'Posición':'Position'}: ${v('fPosicion')||'-'}\n${es?'Programa':'Program'}: ${v('fPrograma')||'-'}\n${es?'Mensaje':'Message'}: ${v('fMsg')||'-'}`;
-  location.href='mailto:info@elitefutbolscouting.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(msg);
-});
+/* ================= FORM → TALLY ================= */
+(function(){var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function(e){e.src=e.dataset.tallySrc})};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w;s.onload=v;s.onerror=v;d.body.appendChild(s);}})();
 
 /* ================= I18N ================= */
 const EN={
