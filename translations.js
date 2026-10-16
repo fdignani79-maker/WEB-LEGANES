@@ -172,6 +172,7 @@ const translations = {
         'program_1year_feature13': 'Contacto directo con clubes europeos',
         'program_1year_note': '* La gestión del visado no está incluida en el precio',
         'program_1year_note_airfare': '* Aéreo no incluido',
+        'nota_médica_del_programa':'* Cobertura médica a cargo del jugador',
         
         // Por qué elegirnos
         'why_us_title': 'Por Qué Elegir Elite Futbol Scouting',
